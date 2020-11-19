@@ -1,0 +1,175 @@
+.nw-nieuws-overview-grd-sec{
+	padding: 75px 0 85px;
+}
+
+
+.nw-nogs-inr ul li{
+	padding-bottom: 60px;
+}
+.nw-nogs-inr ul li:last-child{
+	padding-bottom: 85px;
+}
+.nw-nwo-grd-item{
+	display: flex;
+	align-items: center;
+}
+.nw-nwo-grd-item-img-ctlr{
+	float: left;
+	width: 50%;
+	position: relative;
+}
+
+.nw-nwo-grd-item-des{
+	float: right;
+	width: 50%;
+	padding-left: 25px;
+	padding-right: 90px;
+}
+
+.nw-nwo-grd-item-img{
+	min-height: 360px;
+}
+
+.nw-nwo-grd-item-date{
+	position: absolute;
+	top: 65px;
+	right: 0;
+	background: #FFFFFF;
+	/*box-shadow: -20px 0px 20px rgba(0, 0, 0, 0.15);*/
+	padding: 15px 15px;
+}
+
+.nw-nwo-grd-item-date strong{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 30px;
+	color: #7B8CA8;
+	width: 68px;
+	height: 68px;
+	border: 2px solid #7B8CA8;
+	border-radius: 8px;
+	text-align: center;
+	padding: 10px;
+}
+.nw-nwo-grd-item-date strong span{
+	font-size: 15px;
+}
+
+
+.nw-nwo-grd-item-des span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 13px;
+	color: #02BEE8;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.nw-nwogid-title{
+	display: block;
+	font-size: 30px;
+	line-height: 1;
+	margin-bottom: 20px;
+	font-weight: 600;
+	color: #43587B;
+}
+.nw-nwogid-title a{
+	color: #43587B;
+}
+.nw-nwogid-title a:hover{
+	color: #FF5C26;
+}
+
+.nw-nwo-grd-item-des > a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 14px;
+	font-weight: 600;
+	color: #FF5C26;
+	padding-right: 35px;
+	position: relative;
+}
+.nw-nwo-grd-item-des a i{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+.nw-nwo-grd-item-des a:hover{
+	padding-right: 40px;
+}
+
+
+.nwo-rgtimg-lftdes .nw-nwo-grd-item-des{
+	order: 1;
+	padding-left: 0;
+	padding-right: 25px;
+}
+.nwo-rgtimg-lftdes .nw-nwo-grd-item-img-ctlr{
+	order: 2;
+	padding-left: 25px;
+}
+
+.nwo-rgtimg-lftdes .nw-nwo-grd-item-date{
+	left: 24px;
+	right: initial;
+}
+
+
+/*pagination*/
+.pagination-cntlr{
+	background: #F4F7F9;
+	padding-top: 35px;
+}
+.pagination-cntlr ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pagination-cntlr ul li{
+	display: inline-block;
+	vertical-align: baseline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.pagination-cntlr ul li span,
+.pagination-cntlr ul li a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 15px;
+	color: #7B8CA8;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding-bottom: 30px;
+	padding-left: 4px;
+	padding-right: 4px;
+	position: relative;
+}
+.pagination-cntlr ul li span:after,
+.pagination-cntlr ul li a:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 5px;
+	width: 16px;
+	background: #FF5C26;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.pagination-cntlr ul li span.current:after,
+.pagination-cntlr ul li a:hover:after{
+	visibility: visible;
+	opacity: 1;
+}
+.pagination-cntlr ul li span.current,
+.pagination-cntlr ul li a:hover{
+	color: #FF5C26;
+}

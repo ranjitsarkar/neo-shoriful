@@ -1,0 +1,27 @@
+.nw-nd-ctlr{
+	position: relative;
+}
+.nw-nd-ctlr .sidebar{
+	position: absolute;
+	top: 260px;
+	left: 0;
+}
+.default-page-con-ctlr{
+	padding: 0 120px;
+}
+.nw-nd-socials-media ul{
+	padding-right: 27px;
+	padding-top: 10px;
+	border-right: 1px solid #E3E8F1;
+}
+.nw-nd-socials-media ul li{
+	padding-bottom: 15px;
+	text-align: center;
+}
+.nw-nd-socials-media ul li a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-align: center;
+	color: #43587B;
+	font-size: 24px;
+}

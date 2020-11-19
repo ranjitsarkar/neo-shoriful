@@ -1,0 +1,243 @@
+.nw-about-realization-sec{
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+
+.nw-ar-lft-img-ctlr{
+	float: left;
+	width: 40.51094%;
+}
+.nw-ar-rgt-des{
+	float: right;
+	width: 59.4890%;
+	padding-left: 140px;
+}
+
+.nw-ar-lft-img{
+	min-height: 475px;
+}
+
+.nw-ar-rgt-des-title{
+	display: block;
+	font-size: 36px;
+	line-height: 1;
+	margin-bottom: 25px;
+	font-weight: 600;
+	color: #43587B;
+	text-transform: uppercase;
+}
+.nw-ar-rgt-des span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 30px;
+	line-height: 1.1;
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+.nw-ar-rgt-des ul{
+	padding-bottom: 20px;
+}
+.nw-ar-rgt-des ul li{
+	display: inline-block;
+	vertical-align: baseline;
+	padding-left: 4px;
+	padding-right: 4px;
+	width: 9px;
+	height: 9px;
+	background: #DFE7ED;
+	border-radius: 100%;
+}
+.nw-ar-rgt-des ul li:last-child{
+	padding-left: 0;
+}
+
+
+
+.nw-about-sec{
+	position: relative;
+	z-index: 15;
+	overflow: hidden;
+}
+.nw-about-top-skew{
+	width: 0;
+	height: 0;
+	border-top: 185px solid #fff;
+	border-left: 1920px solid transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 16;
+}
+.nw-img-btm-skew{
+	width: 0;
+	height: 0;
+    border-left: 1920px solid transparent;
+    border-bottom: 400px solid #F4F7F9;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+.nw-about-btm-skew{
+	border-bottom: 180px solid #fff;
+    border-right: 1920px solid transparent;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+.nw-about-sec-img{
+	min-height: 730px;
+	position: relative;
+}
+.nw-about-sec-des-ctlr{
+	background: #F4F7F9;
+	padding-bottom: 260px;
+}
+.nw-about-sec-inr{
+	margin-top: -280px;
+}
+.about-lft-des{
+	float: left;
+	width: 50%;
+}
+.nw-about-rgt-des{
+	float: right;
+	width: 50%;
+	padding-left: 90px;
+	margin-top: 150px;
+}
+
+.nw-about-rgt-des ul li{
+	padding-top: 35px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #E1E7F0;
+}
+.nw-about-rgt-des ul li:last-child{
+	border-bottom: none;
+}
+.nw-about-rgt-rgd-item{
+	padding-left: 95px;
+	position: relative;
+}
+.nw-about-rgt-rgd-item i{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.nw-arri-title{
+	display: block;
+	font-size: 30px;
+	line-height: 1;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+
+.nw-our-team-sec{
+	padding-bottom: 90px;
+}
+
+.nw-our-team-entry-hdr{
+	text-align: center;
+}
+.nw-our-team-entry-hdr-title{
+	display: block;
+	font-size: 36px;
+	line-height: 1;
+	margin-bottom: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.nw-our-team-entry-hdr p{
+	margin-bottom: 25px;
+}
+
+.nw-our-team-grds{
+	padding-bottom: 72px;
+	border-bottom: 3px solid #F4F7F9;
+}
+.nw-our-team-grds ul{
+	margin-left: -12px;
+	margin-right: -12px;
+}
+.nw-our-team-grds ul li{
+	float: left;
+	width: 25%;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 24px;
+}
+.nw-our-team-grds ul li:nth-child(4n+1){
+	clear: left;
+}
+
+.nw-our-team-grd-item-img-ctlr{
+	overflow: hidden;
+	position: relative;
+}
+.nw-our-team-grd-item-img{
+	min-height: 360px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+
+.nw-our-team-grd-item-des{
+	padding-top: 25px;
+}
+
+.nw-our-team-grd-item-title{
+	display: block;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 7px;
+	font-weight: 600;
+	color: #43587B;
+}
+.nw-our-team-grd-item-title a{
+	color: #43587B;
+}
+
+.nw-our-team-grd-item-des strong{
+	display: block;
+	font-size: 13px;
+	color: #02BEE8;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+	padding-bottom: 20px;
+	font-weight: 600;
+	border-bottom: 1px solid #F4F7F9;
+}
+.nw-our-team-grd-item-tel{
+	position: relative;
+}
+.nw-our-team-grd-item-tel i{
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 24px;
+	width: 100%;
+}
+.nw-our-team-grd-item-tel span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 18px;
+	font-weight: 300;
+	padding-left: 30px;
+}
+.nw-our-team-grd-item-tel span a{
+	color: #43587B;
+}
+
+
+.nw-our-team-grd-item:hover .nw-our-team-grd-item-img{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+}
+.nw-our-team-grd-item-title a:hover{
+	color: #FF5C26;
+}
+.nw-our-team-grd-item-tel span a:hover{
+	color: #FF5C26;
+}

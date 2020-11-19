@@ -1,0 +1,60 @@
+.slick-slider ul.slick-dots{
+	position: static;
+	height: 16px;
+	line-height: 0;
+	padding: 0 20px!important;
+}
+.slick-slider .slick-dots li{
+	width: 16px!important;
+	height: 16px!important;
+	position: static;
+	background: transparent!important;
+	border: 2px solid #43587B!important;
+	border-radius: 100% 100%!important;
+	margin: 0 8px;
+	padding: 0!important;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.slick-slider .slick-dots li.slick-active,
+.slick-slider .slick-dots li:hover{
+	background: #FF5C26!important;
+	border: 2px solid #FF5C26!important;
+	border-radius: 100% 100%!important;
+}
+.slick-slider .slick-dots li:before,
+.slick-slider .slick-dots li button:before{
+	content: none!important;
+}
+.slick-slider .slick-dots li button{
+	padding: 0;
+	width: 16px;
+	height: 16px;
+}
+
+
+.sitemap{
+	padding: 150px 0 100px;
+}
+
+.sitemap h2{
+	margin-bottom: 30px;
+	text-transform: capitalize;
+	font-size: 40px;
+	color: #43587B;
+}
+
+.sitemap ol li a{
+	color: #FF5C26;
+}
+.sitemap ol li a:hover{
+	color: #7B8CA8;
+}
+.sitemap ol li{
+	padding-left: 35px;
+}
+
+.sitemap ol li a:focus{
+	text-decoration: underline;
+}

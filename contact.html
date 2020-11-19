@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!--   <?php $favicon = get_theme_mod('favicon'); if(!empty($favicon)) { ?> 
+  <link rel="shortcut icon" href="<?php echo $favicon; ?>" />
+  <?php } ?> -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->  
+
+  <svg style="display: none;">
+    <symbol id="right-arrow-svg" width="29" height="28" viewBox="0 0 29 28" xmlns="http://www.w3.org/2000/svg">
+      <path d="M26.24 9.63758C25.0745 6.36835 22.7057 3.74863 19.5699 2.26098C16.4342 0.773253 12.9068 0.595825 9.63753 1.76131C6.36829 2.9268 3.74848 5.29559 2.26084 8.43138C0.773283 11.5672 0.595855 15.0946 1.76125 18.3639C1.85936 18.6391 2.16203 18.7824 2.43703 18.6845C2.71221 18.5864 2.8557 18.2839 2.7576 18.0087C1.68695 15.0055 1.84992 11.7652 3.21646 8.88468C4.583 6.00415 6.98951 3.82813 9.99265 2.75757C12.9958 1.68701 16.2362 1.85007 19.1166 3.21652C21.9973 4.58306 24.1732 6.98957 25.2438 9.9927C26.3144 12.9958 26.1514 16.2362 24.7849 19.1167C23.4184 21.9972 21.0118 24.1733 18.0087 25.2438C14.6427 26.4437 10.9502 26.0805 7.87823 24.2475C7.62721 24.0977 7.30276 24.1798 7.1531 24.4306C7.00344 24.6815 7.08541 25.0061 7.33626 25.1558C9.38174 26.3763 11.6795 26.9982 13.9945 26.9981C15.4642 26.9981 16.9411 26.7473 18.3638 26.2402C21.6332 25.0747 24.2528 22.7059 25.7404 19.5701C27.2281 16.4342 27.4055 12.9068 26.24 9.63758Z" fill="white" stroke="white" stroke-width="2"/>
+      <path d="M19.8179 14.0003C19.8179 13.7083 19.5811 13.4714 19.2891 13.4714H6.1182C5.8261 13.4714 5.58936 13.7083 5.58936 14.0003C5.58936 14.2923 5.8261 14.5291 6.1182 14.5291H19.2891C19.5811 14.5291 19.8179 14.2923 19.8179 14.0003Z" fill="white" stroke="white" stroke-width="2"/>
+      <path d="M15.6037 19.5317C15.3971 19.7382 15.3971 20.073 15.6037 20.2796C15.7069 20.3828 15.8423 20.4344 15.9776 20.4344C16.1129 20.4344 16.2483 20.3828 16.3515 20.2796L22.2569 14.3741C22.4635 14.1676 22.4635 13.8328 22.2569 13.6262L16.3515 7.7208C16.145 7.51429 15.81 7.51429 15.6037 7.7208C15.3971 7.92732 15.3971 8.26217 15.6037 8.46868L21.1351 14.0001L15.6037 19.5317Z" fill="white" stroke="white" stroke-width="2"/>
+    </symbol>
+    <symbol id="right-arrow-red-svg" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14.6321 5.65077C14.0045 3.8905 12.7291 2.47995 11.0407 1.67896C9.35231 0.877912 7.453 0.782379 5.69273 1.40992C3.93246 2.03745 2.52187 3.31289 1.72087 5.0013C0.91992 6.68972 0.824387 8.58899 1.45188 10.3493C1.5047 10.4975 1.66767 10.5746 1.81574 10.5219C1.9639 10.4691 2.04116 10.3062 1.98834 10.158C1.41187 8.54106 1.49962 6.79636 2.23541 5.24538C2.9712 3.6944 4.26695 2.52276 5.88394 1.94633C7.50093 1.36991 9.24568 1.45771 10.7966 2.19345C12.3476 2.92924 13.5192 4.22499 14.0957 5.84198C14.6721 7.45897 14.5844 9.20367 13.8486 10.7546C13.1128 12.3056 11.817 13.4773 10.2001 14.0537C8.38768 14.6997 6.39952 14.5042 4.74547 13.5172C4.61031 13.4366 4.43561 13.4808 4.35503 13.6158C4.27445 13.7509 4.31858 13.9257 4.45365 14.0063C5.55501 14.6635 6.79219 14.9983 8.03868 14.9982C8.82999 14.9982 9.6252 14.8632 10.3913 14.5902C12.1516 13.9626 13.5621 12.6872 14.3631 10.9988C15.1641 9.31031 15.2596 7.41103 14.6321 5.65077Z" fill="white" stroke="#FF5C26"/>
+      <path d="M11.1743 7.99959C11.1743 7.84236 11.0468 7.71484 10.8896 7.71484H3.79793C3.64066 7.71484 3.51318 7.84236 3.51318 7.99959C3.51318 8.15682 3.64066 8.28434 3.79793 8.28434H10.8896C11.0468 8.28434 11.1743 8.15682 11.1743 7.99959Z" fill="white" stroke="#FF5C26"/>
+      <path d="M8.66351 11.2117C8.55227 11.3229 8.55227 11.5032 8.66351 11.6144C8.71908 11.67 8.79198 11.6978 8.86483 11.6978C8.93767 11.6978 9.01057 11.67 9.06614 11.6144L12.2458 8.43469C12.3571 8.32349 12.3571 8.1432 12.2458 8.03201L9.06614 4.85232C8.955 4.74112 8.77461 4.74112 8.66351 4.85232C8.55227 4.96351 8.55227 5.1438 8.66351 5.255L11.6418 8.23332L8.66351 11.2117Z" fill="white" stroke="#FF5C26"/>
+    </symbol>
+    <symbol id="fl-prev-svg" width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+      <circle r="23" transform="matrix(-1 0 0 1 25 25)" fill="#F4F7F9"/>
+      <path d="M42.1435 40.3333C45.7855 36.2642 48 30.8907 48 25C48 12.2975 37.7025 2 25 2C12.2975 2 2 12.2975 2 25C2 37.7025 12.2975 48 25 48C28.6886 47.9128 31.1969 47.5149 34 46.2407" stroke="#43587B" stroke-width="3" stroke-linecap="round"/>
+      <path d="M37 25H13M13 25L20.5 17M13 25L20.5 33" stroke="#43587B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="down-arrow-svg" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.3922 14.5892C12.1525 13.9617 13.563 12.6863 14.364 10.9978C15.1651 9.30947 15.2606 7.41015 14.6331 5.64988C14.0055 3.88962 12.7301 2.47902 11.0417 1.67802C9.35325 0.877073 7.45398 0.78154 5.69366 1.40903C5.5455 1.46185 5.46833 1.62482 5.52106 1.77289C5.57388 1.92106 5.73676 1.99832 5.88492 1.9455C7.50191 1.36902 9.24661 1.45677 10.7976 2.19256C12.3486 2.92835 13.5202 4.2241 14.0966 5.84109C14.6731 7.45808 14.5853 9.20283 13.8495 10.7538C13.1137 12.3048 11.818 13.4764 10.201 14.0529C8.584 14.6293 6.8393 14.5415 5.28832 13.8057C3.73735 13.07 2.5657 11.7742 1.98928 10.1572C1.34323 8.34484 1.53876 6.35668 2.52574 4.70262C2.60637 4.56746 2.56219 4.39277 2.42713 4.31218C2.29206 4.2316 2.11727 4.27573 2.03669 4.4108C1.37949 5.51216 1.04467 6.74934 1.04472 7.99583C1.04472 8.78715 1.17974 9.58235 1.45281 10.3484C2.08035 12.1087 3.35578 13.5192 5.0442 14.3202C6.73266 15.1212 8.63193 15.2168 10.3922 14.5892Z" fill="white" stroke="#6B7BB3"/>
+      <path d="M8.04338 11.1314C8.2006 11.1314 8.32812 11.0039 8.32812 10.8466L8.32812 3.75496C8.32812 3.59769 8.20061 3.47021 8.04338 3.47021C7.88615 3.47021 7.75863 3.59769 7.75863 3.75496L7.75863 10.8466C7.75863 11.0039 7.88615 11.1314 8.04338 11.1314Z" fill="white" stroke="#6B7BB3"/>
+      <path d="M4.83066 8.62066C4.71947 8.50942 4.53917 8.50942 4.42798 8.62066C4.37241 8.67624 4.3446 8.74913 4.3446 8.82198C4.3446 8.89483 4.37241 8.96772 4.42798 9.0233L7.60767 12.203C7.71886 12.3142 7.89916 12.3142 8.01035 12.203L11.19 9.0233C11.3012 8.91215 11.3012 8.73176 11.19 8.62066C11.0788 8.50942 10.8986 8.50942 10.7874 8.62066L7.80903 11.599L4.83066 8.62066Z" fill="white" stroke="#6B7BB3"/>
+    </symbol>
+    <symbol id="play-icon-svg" width="74" height="74" viewBox="0 0 74 74" xmlns="http://www.w3.org/2000/svg">
+      <path d="M49.205 35.5533L33.8391 24.3835C33.2752 23.9748 32.5266 23.9132 31.9086 24.2309C31.2856 24.5461 30.8965 25.1863 30.8965 25.8783V48.2105C30.8965 48.9098 31.2856 49.5476 31.9086 49.8628C32.172 49.9958 32.4602 50.0623 32.7507 50.0623C33.13 50.0623 33.5141 49.9416 33.8391 49.7027L49.205 38.5428C49.6901 38.1857 49.9733 37.6341 49.9733 37.0481C49.9758 36.4521 49.6852 35.903 49.205 35.5533Z" fill="white"/>
+      <path d="M37.0012 0.00549316C16.5626 0.00549316 0 16.5681 0 37.0067C0 57.4379 16.5626 73.9956 37.0012 73.9956C57.4349 73.9956 74 57.4355 74 37.0067C74.0025 16.5681 57.4349 0.00549316 37.0012 0.00549316ZM37.0012 67.8222C19.9806 67.8222 6.18083 54.0299 6.18083 37.0067C6.18083 19.991 19.9806 6.18139 37.0012 6.18139C54.0194 6.18139 67.8167 19.9885 67.8167 37.0067C67.8192 54.0299 54.0194 67.8222 37.0012 67.8222Z" fill="white"/>
+    </symbol>
+    <symbol id="down-arrow-blue-svg" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.3277 14.5689C12.088 13.9433 13.4986 12.6718 14.2996 10.9886C15.1006 9.30538 15.1961 7.41191 14.5686 5.65706C13.9411 3.90221 12.6656 2.49595 10.9772 1.69742C9.2888 0.898933 7.38952 0.803694 5.62921 1.42925C5.48105 1.48191 5.40388 1.64438 5.45661 1.792C5.50943 1.9397 5.6723 2.01673 5.82047 1.96407C7.43746 1.38937 9.18216 1.47685 10.7331 2.21038C12.2841 2.9439 13.4558 4.23566 14.0322 5.84768C14.6086 7.45969 14.5208 9.19907 13.7851 10.7452C13.0493 12.2915 11.7535 13.4595 10.1365 14.0342C8.51955 14.6088 6.77485 14.5213 5.22387 13.7878C3.67289 13.0543 2.50125 11.7625 1.92483 10.1505C1.27878 8.34372 1.4743 6.36168 2.46129 4.71271C2.54192 4.57796 2.49774 4.40381 2.36267 4.32347C2.22761 4.24314 2.05282 4.28714 1.97224 4.42179C1.31504 5.51976 0.98022 6.75313 0.980267 7.99579C0.980267 8.78467 1.11528 9.57743 1.38836 10.3411C2.0159 12.096 3.29133 13.5022 4.97975 14.3007C6.66821 15.0993 8.56748 15.1945 10.3277 14.5689Z" fill="white" stroke="#02BEE8"/>
+      <path d="M7.97892 11.1213C8.13615 11.1213 8.26367 10.9942 8.26367 10.8375L8.26367 3.76764C8.26367 3.61084 8.13615 3.48376 7.97892 3.48376C7.8217 3.48376 7.69418 3.61084 7.69418 3.76764L7.69418 10.8375C7.69418 10.9942 7.82169 11.1213 7.97892 11.1213Z" fill="white" stroke="#02BEE8"/>
+      <path d="M4.76621 8.6187C4.65501 8.5078 4.47472 8.5078 4.36353 8.6187C4.30795 8.6741 4.28014 8.74677 4.28014 8.81939C4.28014 8.89202 4.30795 8.96469 4.36353 9.02009L7.54322 12.19C7.65441 12.3009 7.8347 12.3009 7.9459 12.19L11.1256 9.02009C11.2368 8.90929 11.2368 8.72945 11.1256 8.6187C11.0144 8.5078 10.8341 8.5078 10.7229 8.6187L7.74458 11.5879L4.76621 8.6187Z" fill="white" stroke="#02BEE8"/>
+    </symbol>
+    <symbol id="shopping-cart-svg" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z"/>
+    </symbol>
+    <symbol id="rgt-arrow-white-svg" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14.5901 5.65077C13.9625 3.8905 12.6871 2.47995 10.9987 1.67896C9.31032 0.877912 7.411 0.782379 5.65074 1.40992C3.89047 2.03745 2.47987 3.31289 1.67888 5.0013C0.877928 6.68972 0.782395 8.58899 1.40989 10.3493C1.46271 10.4975 1.62568 10.5746 1.77375 10.5219C1.92191 10.4691 1.99917 10.3062 1.94635 10.158C1.36988 8.54106 1.45763 6.79636 2.19342 5.24538C2.92921 3.6944 4.22496 2.52276 5.84195 1.94633C7.45894 1.36991 9.20369 1.45771 10.7546 2.19345C12.3056 2.92924 13.4772 4.22499 14.0537 5.84198C14.6301 7.45897 14.5424 9.20367 13.8066 10.7546C13.0708 12.3056 11.7751 13.4773 10.1581 14.0537C8.34569 14.6997 6.35753 14.5042 4.70347 13.5172C4.56831 13.4366 4.39362 13.4808 4.31304 13.6158C4.23245 13.7509 4.27659 13.9257 4.41166 14.0063C5.51301 14.6635 6.7502 14.9983 7.99668 14.9982C8.788 14.9982 9.58321 14.8632 10.3493 14.5902C12.1096 13.9626 13.5201 12.6872 14.3211 10.9988C15.1221 9.31031 15.2176 7.41103 14.5901 5.65077Z" fill="white" stroke="white"/>
+      <path d="M11.1323 7.99959C11.1323 7.84236 11.0048 7.71484 10.8476 7.71484H3.75594C3.59866 7.71484 3.47119 7.84236 3.47119 7.99959C3.47119 8.15682 3.59866 8.28434 3.75594 8.28434H10.8476C11.0048 8.28434 11.1323 8.15682 11.1323 7.99959Z" fill="white" stroke="white"/>
+      <path d="M8.62152 11.2117C8.51028 11.3229 8.51028 11.5032 8.62152 11.6144C8.67709 11.67 8.74999 11.6978 8.82283 11.6978C8.89568 11.6978 8.96858 11.67 9.02415 11.6144L12.2038 8.43469C12.3151 8.32349 12.3151 8.1432 12.2038 8.03201L9.02415 4.85232C8.913 4.74112 8.73262 4.74112 8.62152 4.85232C8.51028 4.96351 8.51028 5.1438 8.62152 5.255L11.5998 8.23332L8.62152 11.2117Z" fill="white" stroke="white"/>
+    </symbol>
+    <symbol id="facebook-svg" width="14" height="24" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8.76977 24H4.5758C4.25901 24 4.00192 23.7429 4.00192 23.4261V13.5759H1.06704C0.750255 13.5759 0.493164 13.3188 0.493164 13.002V8.94003C0.493164 8.62324 0.750255 8.36615 1.06704 8.36615H4.00192V5.94549C4.00189 2.27718 6.22286 0 9.79931 0C11.397 0 12.6837 0.122818 13.0085 0.166424C13.2943 0.204303 13.5066 0.447636 13.5066 0.735727V4.3673C13.5066 4.68409 13.2495 4.94118 12.9327 4.94118L10.7841 4.94348C9.54334 4.94348 9.34362 5.35667 9.34362 6.34721V8.3673H12.7927C12.9579 8.3673 13.1152 8.43845 13.2231 8.56242C13.3321 8.68524 13.3826 8.85052 13.362 9.01464L12.8386 13.0766C12.8019 13.3635 12.5574 13.5782 12.2693 13.5782H9.34362V23.4284C9.34365 23.7441 9.08656 24 8.76977 24ZM5.14968 22.8522H8.19586V13.002C8.19586 12.6852 8.45295 12.4281 8.76974 12.4281H11.7643L12.1408 9.51391H8.76977C8.45298 9.51391 8.19589 9.25682 8.19589 8.94003V6.34606C8.19589 5.25109 8.46446 3.79455 10.7841 3.79455L12.36 3.79339V1.25336C11.7735 1.20285 10.8312 1.14776 9.79934 1.14776C6.88743 1.14776 5.14971 2.94061 5.14971 5.94545V8.94C5.14971 9.25679 4.89262 9.51388 4.57583 9.51388H1.64095V12.4281H4.57583C4.89262 12.4281 5.14971 12.6852 5.14971 13.002V22.8522H5.14968Z"/>
+    </symbol>
+    <symbol id="twiter-svg" width="24" height="22" viewBox="0 0 24 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M23.8008 3.38492C23.6401 3.27594 23.4271 3.28184 23.2718 3.399C23.0679 3.5534 22.7364 3.67601 22.3795 3.77046C23.309 2.72874 23.329 2.03305 23.319 1.8732C23.3086 1.70791 23.2091 1.56123 23.0593 1.49084C22.909 1.42 22.7328 1.43726 22.5988 1.53444C21.553 2.29461 20.5113 2.45491 19.8919 2.47126C18.941 1.56123 17.7063 1.06262 16.3921 1.06262C13.5784 1.06262 11.2898 3.3822 11.2898 6.23308C11.2898 6.4783 11.307 6.72306 11.3411 6.96556C6.46487 6.91061 2.50506 2.2383 2.46419 2.18972C2.36882 2.07619 2.22442 2.01534 2.07638 2.02851C1.92834 2.04122 1.7962 2.12523 1.72218 2.2542C0.318987 4.68821 1.25808 6.82615 2.11634 8.05042C1.96467 7.96959 1.84161 7.88966 1.76804 7.83563C1.63181 7.73391 1.44971 7.7171 1.29622 7.79249C1.14319 7.86787 1.04556 8.02226 1.04238 8.19255C1.00469 10.5121 2.12088 11.8408 3.17078 12.5756C3.03091 12.5624 2.88878 12.6142 2.7916 12.72C2.68261 12.8385 2.64401 13.0061 2.69124 13.16C3.41645 15.5336 5.197 16.3401 6.33 16.614C4.00043 18.4277 0.571924 17.8437 0.534233 17.8373C0.32716 17.8005 0.122812 17.9095 0.0383484 18.1016C-0.0456614 18.2933 0.0115561 18.518 0.178667 18.6452C2.63766 20.522 5.57891 20.9375 7.70322 20.9375C9.3103 20.9375 10.4506 20.6996 10.5595 20.6755C21.321 18.1252 21.6239 8.26793 21.5989 6.65268C23.6192 4.77404 23.9348 4.05836 23.9834 3.88126C24.0356 3.69372 23.9621 3.49391 23.8008 3.38492ZM20.8319 6.12546C20.7306 6.21855 20.6775 6.35251 20.6866 6.49011C20.7152 6.92605 21.2656 17.2057 10.3593 19.79C10.3098 19.8004 5.97443 20.705 2.21624 18.8432C3.80426 18.7991 6.08115 18.3832 7.66734 16.6022C7.78723 16.4682 7.81629 16.2757 7.74182 16.1122C7.66825 15.9501 7.50613 15.8461 7.32858 15.8461H7.32404C7.30133 15.8606 4.91682 15.8433 3.82515 13.5751C4.26472 13.6001 4.80692 13.5728 5.23878 13.3739C5.41679 13.2917 5.52169 13.1051 5.49989 12.9103C5.47809 12.7159 5.33369 12.5574 5.14205 12.517C5.0199 12.4911 2.36519 11.8976 1.99373 9.00177C2.39652 9.17797 2.91194 9.32192 3.42144 9.24427C3.59673 9.21793 3.74023 9.09214 3.78972 8.92185C3.83922 8.75156 3.78518 8.5681 3.65122 8.45185C3.5377 8.35285 1.04465 6.13727 2.22669 3.27957C3.50999 4.626 7.31087 8.12489 11.916 7.8606C12.0508 7.85288 12.1757 7.78476 12.2561 7.67578C12.336 7.56679 12.3633 7.42784 12.3306 7.2966C12.2434 6.94921 12.1989 6.59137 12.1989 6.23354C12.1989 3.88308 14.0807 1.97129 16.3935 1.97129C17.5246 1.97129 18.5859 2.42267 19.381 3.24279C19.4646 3.32907 19.5795 3.37857 19.6994 3.38084C20.1807 3.38765 20.9718 3.33089 21.8654 2.9726C21.6075 3.29365 21.2288 3.67828 20.6716 4.11604C20.514 4.24001 20.4564 4.45208 20.5295 4.63871C20.6026 4.82581 20.7915 4.94342 20.9886 4.92571C21.0944 4.91708 21.6339 4.86985 22.2437 4.73771C21.9104 5.09554 21.4549 5.55238 20.8319 6.12546Z" stroke="#43587B" stroke-width="0.4"/>
+    </symbol>
+    <symbol id="instagram-svg" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.8715 24H6.12847C2.74935 24 0 21.2499 0 17.8708V6.12769C0 2.74858 2.74935 0 6.12847 0H17.8715C21.2507 0 24 2.74858 24 6.12769V17.8708C24 21.2499 21.2507 24 17.8715 24ZM6.12847 1.37081C3.50507 1.37081 1.37158 3.5043 1.37158 6.12692V17.87C1.37158 20.4934 3.50584 22.6269 6.12847 22.6269H17.8715C20.4949 22.6269 22.6276 20.4926 22.6276 17.87V6.12769C22.6276 3.5043 20.4942 1.37158 17.8715 1.37158H6.12847V1.37081Z"/>
+      <path d="M23.3138 9.00529H14.861C14.4823 9.00529 14.1748 8.69775 14.1748 8.31911C14.1748 7.94048 14.4816 7.63293 14.861 7.63293H23.313C23.6917 7.63293 23.9992 7.93971 23.9992 8.31911C24 8.69775 23.6924 9.00529 23.3138 9.00529Z"/>
+      <path d="M8.96127 9.00525H0.685405C0.306771 9.00525 0 8.69771 0 8.31984C0 7.94121 0.306771 7.63367 0.685405 7.63367H8.96127C9.3399 7.63367 9.64745 7.94044 9.64745 8.31984C9.64667 8.69771 9.3399 9.00525 8.96127 9.00525Z"/>
+      <path d="M11.9997 17.3477C9.05096 17.3477 6.65088 14.9492 6.65088 11.9997C6.65088 9.05018 9.05018 6.65088 11.9997 6.65088C14.9484 6.65088 17.3477 9.04941 17.3477 11.9997C17.3477 14.9492 14.9491 17.3477 11.9997 17.3477ZM11.9997 8.02246C9.80668 8.02246 8.02169 9.80745 8.02169 12.0004C8.02169 14.1934 9.80668 15.9769 11.9997 15.9769C14.1927 15.9769 15.9761 14.1934 15.9761 12.0004C15.9761 9.80745 14.1927 8.02246 11.9997 8.02246Z"/>
+      <path d="M19.7487 7.23343H16.6632C16.2846 7.23343 15.9771 6.92666 15.9771 6.54803V3.46177C15.9771 3.08314 16.2846 2.77637 16.6632 2.77637H19.7487C20.1273 2.77637 20.4341 3.08314 20.4341 3.46177V6.54803C20.4333 6.92743 20.1273 7.23343 19.7487 7.23343ZM17.3479 5.86185H19.0625V4.14795H17.3479V5.86185Z"/>
+    </symbol>
+
+  </svg>
+
+</head>
+<body>
+<header class="header">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header-inr clearfix">
+            <div class="hdr-lft">
+              <div class="logo">
+                <a href="#"><img src="assets/images/logo.png"></a>
+              </div>
+            </div>
+            <div class="hdr-rgt">
+              <div class="hdr-rgt-top-menu">
+                <div class="hdr-rgt-top-menu-inr">
+                  <ul class="reset-list">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li class="menu-item-has-children">
+                      <a href="#">About Us</a>
+                      <ul class="sub-menu">
+                        <li><a href="#">Blog 1</a></li>
+                        <li><a href="#">Blog 2</a></li>
+                        <li><a href="#">Blog 3</a></li>
+                        <li><a href="#">Blog 4</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="hdr-rgt-top-menu-lang">
+                  <div class="hdr-rgt-top-menu-lang-inr">
+                    <ul class="reset-list">
+                      <li class="active"><a href="#">EN</a></li>
+                      <li><a href="#">ES</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="hdr-rgt-btm-menu">
+                <nav class="main-nav">
+                  <ul class="reset-list">
+                    <li><a href="#">products</a></li>
+                    <li><a href="#">Wi-Fi / LAN</a></li>
+                  </ul>
+                </nav>
+                <div class="hdr-rgt-btm-menu-rgt">
+                  <div class="hdr-rgt-btm-menu-search">
+                    <input type="text" name="" placeholder="search">
+                    <button class="active"><i class="fas fa-search"></i></button>
+                  </div>
+                  <div class="hdr-rgt-btm-menu-cart">
+                    <a href="#">
+                      <i>
+                        <svg class="shopping-cart-svg" width="20" height="20" viewBox="0 0 20 20" fill="#fff">
+                          <use xlink:href="#shopping-cart-svg"></use>
+                        </svg> 
+                      </i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</header>
+
+<section class="page-banner-cnt">
+  <div id="particles-js"></div>
+  <div class="page-banner-cnt-controller" style="overflow: hidden;">
+    <div class="page-banner-cnt-des inline-bg" style="background: url('assets/images/page-banner.jpg');">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-banner-cnt-des-inr clearfix">
+              <h1 class="page-banner-title">Contact</h1>
+              <div class="bredcrumbs">
+                <ul class="reset-list">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Binnenpagina</a></li>
+                  <li><a href="#">Binnenpagina</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="nw-contact-form-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="nw-contact-form-sec-inr clearfix">
+          <div class="nw-contact-form-lft">
+            <div class="nw-contact-form-lft-hdr">
+              <h2 class="nw-cfl-title">Send us an e-mail</h2>
+              <p>Cras egestas tortor non accumsan placerat. Proin est risus, convallis nec magna sed, semper consequat est. </p>
+              <ul class="reset-list">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <div class="wpforms-container">
+              <form class="wpforms-form">
+                <div class="wpforms-field-container">  
+                  <div class="wpforms-field NameField">
+                    <label class="wpforms-field-label">Name</label>
+                    <input type="text" name="name" placeholder="" required>
+                  </div>
+                  <div class="wpforms-field telField">
+                    <label class="wpforms-field-label">Phone</label>
+                    <input type="tel" name="text" placeholder="" required>
+                  </div>
+                  <div class="wpforms-field mailField">
+                    <label class="wpforms-field-label">E-mail</label>
+                    <input type="email" name="email" placeholder="" required>
+                  </div>
+                  <div class="wpforms-field wpforms-has-error subjectField">
+                    <label class="wpforms-field-label wpforms-label-error">Subject</label>
+                    <input type="subject" name="text" placeholder="9%223AJ" required>
+                    <label class="wpforms-error">This is not recognized as a correct subject.</label>
+                  </div>
+                  <div class="wpforms-field wpforms-field-textarea">
+                    <label class="wpforms-field-label">Message</label>
+                    <textarea name="message" placeholder=""></textarea>
+                  </div>
+                </div><!-- end of .wpforms-field-container-->
+                <div class="wpforms-submit-container">
+                  <button type="submit" name="submit" class="wpforms-submit">SEND</button>
+                </div>
+
+              </form>
+            </div>
+          </div>
+          <div class="nw-contact-form-rgt">
+            <div class="nw-contact-fomr-rgt-hdr">
+              <h2 class="nw-cfrgt-title">Contact Info</h2>
+            </div>
+            <div class="nw-contact-location">
+              <i><img src="assets/images/place-marker-icon.svg"></i>
+              <a href="#">Burgemeester De Cocklaan 10 <br> bus 11 9320 <br> Erembodegem</a>
+            </div>
+            <div class="nw-contact-tel">
+              <i><img src="assets/images/tel-icon.svg"></i>
+              <span> Call us: <a href="tel:+3253860088">+32 53 86 00 88</a></span>
+            </div>
+            <div class="nw-contact-mail">
+              <i><img src="assets/images/mail-icon.svg"></i>
+              <span>E-mail Us: <a href="mailto:info@neowireless.be">info@neowireless.be</a></span>
+            </div>
+            <div class="nw-contact-socials-media">
+              <ul class="reset-list">
+                <li><a href="#"><img src="assets/images/facebook.svg"></a></li>
+                <li><a href="#"><img src="assets/images/twiter.svg"></a></li>
+                <li><a href="#"><img src="assets/images/instagram.svg"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="google-map">
+  <span class="google-map-top-skew"></span>
+  <div id="mapID" class="" data-latitude="50.9374" data-longitude="4.0410" style="width:100%; height:935px"></div>
+</section>
+
+
+<footer class="footer-wrp">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="ftr-top-menu clearfix">
+          <div class="ftr-top-logo">
+            <a href="#"><img src="assets/images/ftr-logo.png"></a>
+            <div class="ftr-top-adrs">
+              <div class="ftr-top-adrs-lctn">
+                <a href="#">Burgemeester De Cocklaan 10 <br> bus 11 9320 Erembodegem</a>
+              </div>
+              <div class="ftr-top-mail">
+                <a href="mailto:info@neowireless.eu">info@neowireless.eu</a>
+              </div>
+              <div class="ftr-top-vat">
+                <span href="#">BE0848 529 769</span>
+              </div>
+            </div>
+          </div>
+          <div class="ftr-top-menu-col ftr-col-1">
+            <h6 class="ftr-top-menu-title">Navigation</h6>
+            <ul class="reset-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="ftr-top-menu-col ftr-col-2">
+            <h6 class="ftr-top-menu-title">Services & Products</h6>
+            <ul class="reset-list">
+              <li><a href="#">Mounting accesories</a></li>
+              <li><a href="#">Wi-fi & Lan Projects</a></li>
+              <li><a href="#">Realizations</a></li>
+            </ul>
+          </div>
+          <div class="ftr-top-menu-col ftr-col-3">
+            <h6 class="ftr-top-menu-title">Product Categories</h6>
+            <ul class="reset-list">
+              <li><a href="#">Product Category</a></li>
+              <li><a href="#">Product Category</a></li>
+              <li><a href="#">Product Category</a></li>
+              <li><a href="#">Product Category</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="ftr-middle-menu clearfix">
+          <div class="ftr-middle-menu-tel">
+            <span>
+              Call us:<a href="tel:+3253860088"> +32 53 86 00 88</a>
+              <i><img src="assets/images/tel-icon.svg"></i>
+            </span>
+          </div>
+          <div class="ftr-socials-media">
+            <ul class="reset-list">
+              <li>
+                <a href="#">
+                  <i>
+                    <svg class="facebook-svg" width="14" height="24" viewBox="0 0 14 24" fill="#43587B">
+                      <use xlink:href="#facebook-svg"></use>
+                    </svg> 
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i>
+                    <svg class="twiter-svg" width="24" height="22" viewBox="0 0 24 22" fill="#43587B">
+                      <use xlink:href="#twiter-svg"></use>
+                    </svg> 
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i>
+                    <svg class="instagram-svg" width="24" height="24" viewBox="0 0 24 24" fill="#43587B">
+                      <use xlink:href="#instagram-svg"></use>
+                    </svg> 
+                  </i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="ftr-btm">
+          <div class="ftr-btm-copywrite">
+            <p>&copy; 2019 Neo Wireless. All Rights Reserved.</p>
+          </div>
+          <div class="ftr-btm-menu">
+            <ul class="reset-list">
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+          <div class="ftr-btm-designby">
+            <a href="#">webdesign by conversal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-select.min.js"></script>
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
+<script src="assets/slick.slider/slick.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaRQsAJCZyyD6MbCg0jB_0sdLGEOxt97Y"></script>
+<script src="assets/js/jquery.matchHeight-min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/jquery.sticky-sidebar.js"></script>
+<script src="assets/js/particles.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
