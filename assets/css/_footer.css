@@ -329,7 +329,105 @@
 	.show-md{
 		display: block!important;
 	}
-	
+	.ftr-top-menu-col{
+		display: none;
+	}
+	.ftr-top-logo{
+		width: 100%;
+		text-align: center;
+	}
+	.ftr-middle-menu-tel{
+		display: block;
+		text-align: center;
+		float: initial;
+	}
+	.ftr-socials-media{
+		display: none;
+	}
+	.ftr-btm{
+		display: block;
+		padding-top: 35px;
+	}
+	.ftr-btm-copywrite{
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.ftr-btm-menu{
+		text-align: center;
+		margin-bottom: 35px;
+	}
+	.ftr-btm-designby{
+		text-align: center;
+	}
+	.ftr-socials-media{
+		float: initial;
+	}
+	.ftr-top-logo a {
+	    margin-bottom: 30px;
+	}
+	.ftr-socials-media ul li{
+		padding-bottom: 25px;
+	}
+	.ftr-socials-media ul li a{
+		margin-bottom: 0;
+	}
+	.ftr-top-menu-col {
+	    float: initial;
+	    padding-right: 0;
+	    display: block!important;
+	}
+	.ftr-col-1, 
+	.ftr-col-2{
+	    width: 100%;
+	}
+	.mbl-ftr-menu{
+		text-align: center;
+		padding-bottom: 50px;
+		padding-top: 50px;
+		border-bottom: 3px solid #F4F7F9;
+	}
+	.ftr-col-1{
+		margin-bottom: 35px;
+	}
+	.ftr-top-menu-title{
+		display: inline-block;
+		padding-right: 35px;
+		position: relative;
+		margin-bottom: 0;
+	}
+	.ftr-top-menu-title i{
+		position: absolute;
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+	}
+	.ftr-top-menu-col ul{
+		display: none;
+		margin-top: 35px;
+	}
+	.ftr-top-sec {
+	    position: relative;
+	    z-index: 1;
+	}
+	.ftr-top-sec-grds ul{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.ftr-top-sec-grds ul li {
+	    width: 100%!important;
+	    padding-bottom: 25px;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.ftr-top-grd-item-des-ctlr {
+	    padding-top: 60px;
+	    padding-left: 25px;
+	}
+	.ftr-tgid-title {
+	    font-size: 32px;
+	}
 	
 }
 
@@ -339,6 +437,15 @@
 	}
 	.show-sm{
 		display: block!important;
+	}
+	.ftr-top-grd-item-des-ctlr {
+	    padding-top: 50px;
+	}
+	.ftr-top-grd-item-des p {
+	    font-size: 14px;
+	}
+	.ftr-tgid-title {
+	    font-size: 30px;
 	}
 	
 }
@@ -355,10 +462,23 @@
 }
 
 @media(max-width: 479px){
-
+	.ftr-top-grd-item-des a{
+		width: 300px;
+	}
+	.ftr-middle-menu-tel span{
+		font-size: 20px;
+	}
+	.ftr-middle-menu-tel span i {
+	    top: -8px;
+	}
 
 }
 
 @media(max-width: 359px){
-
+	.ftr-top-grd-item-des a {
+	    width: 260px;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    font-size: 11px;
+	}
 }

@@ -182,7 +182,32 @@ google.maps.event.addDomListener(window, 'load', initialize);
         slidesToShow: 1,
         slidesToScroll: 1,
         prevArrow: $('.fl-prv-nxt .fl-prev'),
-        nextArrow: $('.fl-prv-nxt .fl-next')
+        nextArrow: $('.fl-prv-nxt .fl-next'),
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              dots: false
+            }
+          }
+          /*{
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },*/
+          /*{
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }*/
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
       });
     }
 
@@ -386,6 +411,63 @@ google.maps.event.addDomListener(window, 'load', initialize);
           });
 
         });
+
+
+        if (windowWidth <= 991) {
+          $('.ftr-top-menu-col h6').on('click', function(){
+            $(this).toggleClass('active');
+            $(this).parent().siblings().find('h6').removeClass('active');
+            $(this).parent().find('ul').slideToggle(300);
+            $(this).parent().siblings().find('ul').slideUp(300);
+          });
+
+        }
+
+
+        if (windowWidth <= 991) {
+          $('.humberger-icon').on('click', function(e){
+            $('.xs-menu-ctlr').addClass('opacity-1');
+            $('.bdoverlay').addClass('active');
+            $('body').addClass('active-scroll-off');
+            $(this).addClass('active-collapse');
+          });
+          $('.close-btn-icon').on('click', function(e){
+            $('.bdoverlay').removeClass('active');
+            $('.xs-menu-ctlr').removeClass('opacity-1');
+            $('body').removeClass('active-scroll-off');
+          });
+          $('li.menu-item-has-children > a').on('click', function(e){
+              e.preventDefault();
+            //$('li.menu-item-has-children .sub-menu').slideUp(300);
+            $(this).next().slideToggle(300);
+            $(this).toggleClass('sub-menu-active');
+            
+          });
+          /*$('li.menu-item-has-children > a ul.sub-menu li.menu-item-has-children a').on('click', function(e){
+              e.preventDefault();
+            //$('li.menu-item-has-children .sub-menu').slideUp(300);
+            $(this).next().slideToggle(300);
+            $(this).toggleClass('sub-menu-active');
+            
+          });*/
+
+        }
+
+
+        if (windowWidth <= 767){
+          if( $('.rlztnSlider').length ){
+            $('.rlztnSlider').slick({
+              dots: true,
+              arrows: true,
+              infinite: false,
+              autoplay: false,
+              autoplaySpeed: false,
+              speed: 300,
+              slidesToShow: 1,
+              slidesToScroll: 1
+            });
+          };
+        }
       
       
 
