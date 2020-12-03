@@ -346,7 +346,7 @@
 	}
 	.ftr-btm{
 		display: block;
-		padding-top: 35px;
+		padding-top: 40px;
 	}
 	.ftr-btm-copywrite{
 		text-align: center;
@@ -354,7 +354,7 @@
 	}
 	.ftr-btm-menu{
 		text-align: center;
-		margin-bottom: 35px;
+		margin-bottom: 30px;
 	}
 	.ftr-btm-designby{
 		text-align: center;
@@ -366,7 +366,7 @@
 	    margin-bottom: 30px;
 	}
 	.ftr-socials-media ul li{
-		padding-bottom: 25px;
+		padding-bottom: 20px;
 	}
 	.ftr-socials-media ul li a{
 		margin-bottom: 0;
@@ -395,38 +395,59 @@
 		position: relative;
 		margin-bottom: 0;
 	}
-	.ftr-top-menu-title i{
+	.ftr-top-menu-title:after{
+		content: "";
 		position: absolute;
 		top: 50%;
 		right: 0;
 		transform: translateY(-50%);
 		-webkit-transform: translateY(-50%);
 		-ms-transform: translateY(-50%);
+		height: 16px;
+		width: 16px;
+		background: url('../images/xs-ftr-down-arrow.svg');
+		background-repeat: no-repeat!important;
+	}
+	.ftr-top-menu-title.active:after{
+		background: url('../images/xs-ftr-up-arrow.svg');
+		background-repeat: no-repeat!important;
 	}
 	.ftr-top-menu-col ul{
 		display: none;
-		margin-top: 35px;
+		margin-top: 30px;
 	}
 	.ftr-top-sec {
 	    position: relative;
 	    z-index: 1;
 	}
-	.ftr-top-sec-grds ul{
-		margin-left: 0;
-		margin-right: 0;
-	}
-	.ftr-top-sec-grds ul li {
-	    width: 100%!important;
-	    padding-bottom: 25px;
-	    padding-left: 0;
-	    padding-right: 0;
-	}
+	
 	.ftr-top-grd-item-des-ctlr {
 	    padding-top: 60px;
-	    padding-left: 25px;
+	    padding-left: 20px;
 	}
 	.ftr-tgid-title {
 	    font-size: 32px;
+	}
+	.ftr-top-grd-item-des{
+		text-align: center;
+	}
+	.ftr-top-grd-item-des a{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.footer-wrp {
+	    padding-top: 50px;
+	    padding-bottom: 70px;
+	}
+	.ftr-top-adrs-lctn a,
+	.ftr-top-mail a{
+		margin-bottom: 20px;
+	}
+	.ftr-top-menu{
+		padding-bottom: 40px;
+	}
+	.ftr-middle-menu{
+		padding: 30px 0;
 	}
 	
 }
@@ -446,6 +467,19 @@
 	}
 	.ftr-tgid-title {
 	    font-size: 30px;
+	}
+	.footer-wrp {
+	    padding-top: 25px;
+	}
+	.ftr-top-sec-grds ul{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.ftr-top-sec-grds ul li {
+	    width: 100%!important;
+	    padding-bottom: 25px;
+	    padding-left: 0;
+	    padding-right: 0;
 	}
 	
 }

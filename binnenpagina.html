@@ -86,6 +86,7 @@
 </head>
 <body>
 <header class="header">
+  <div class="bdovelay"></div>
   <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -146,9 +147,84 @@
                 </div>
               </div>
             </div>
+            <div class="mobile-menu-ctlr show-md">
+              <div class="mobile-menu">
+                <div class="humberger">
+                  <div class="humberger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <div class="mobile-shipping-cart">
+                  <a href="#">
+                    <i>
+                      <svg class="shopping-cart-svg" width="20" height="20" viewBox="0 0 20 20" fill="#fff">
+                        <use xlink:href="#shopping-cart-svg"></use>
+                      </svg> 
+                    </i>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+  </div>
+  <div class="mobile-hdr">
+    <div class="xs-menu-ctlr" style="display: none;">
+      <div class="mobile-main-menu">
+        <div class="mobile-logo">
+          <a href="#"><img src="assets/images/logo.png"></a>
+        </div>
+        <nav class="main-menu">
+          <ul class="reset-list">
+            <li><a href="#">products</a></li>
+            <li><a href="#">Wi-Fi / LAN</a></li>
+          </ul>
+        </nav>
+        <div class="hdr-rgt-top-menu">
+          <div class="hdr-rgt-top-menu-inr">
+            <ul class="reset-list">
+              <li><a class="active" href="#">Home</a></li>
+              <li class="menu-item-has-children">
+                <a href="#">About Us</a>
+                <ul class="sub-menu">
+                  <li><a href="#">Blog 1</a></li>
+                  <li><a href="#">Blog 2</a></li>
+                  <li><a href="#">Blog 3</a></li>
+                  <li><a href="#">Blog 4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="mobile-search">
+            <input type="text" name="" placeholder="search">
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <div class="xs-shipping-cart">
+            <a href="#">
+              Shopping Cart
+              <i>
+                <svg class="shopping-cart-svg" width="20" height="20" viewBox="0 0 20 20" fill="#fff">
+                  <use xlink:href="#shopping-cart-svg"></use>
+                </svg> 
+              </i>
+            </a>
+          </div>
+          <div class="hdr-rgt-top-menu-lang">
+            <div class="hdr-rgt-top-menu-lang-inr">
+              <ul class="reset-list">
+                <li class="active"><a href="#">EN</a></li>
+                <li><a href="#">ES</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -279,46 +355,58 @@
           </div>
 
           <div class="dfp-realization-module">
-            <div class="realizatin-grds clearfix">
-              <div class="realization-grds-items">
-                <div class="realization-grd-item">
-                  <div class="realization-grd-item-img-ctlr">
-                    <a href="#" class="overlay-link"></a>
-                    <div class="realization-grd-item-img inline-bg" style="background: url('assets/images/dfp-img-05.jpg');"></div>
-                  </div>
-                  <div class="realizatin-grd-item-des">
-                    <span>Mounting Accessories</span>
-                    <h5 class="rgid-title mHc"><a href="#">Skymount-air-Uplate-Patch</a></h5>
-                    <p class="mHc1">Universal MNT ACC - Airborne, designed for directional antennas, indoor</p>
-                    <a href="#">
-                      More Info
-                      <i>
-                        <svg class="right-arrow-red-svg" width="16" height="16" viewBox="0 0 16 16" fill="#fff">
-                          <use xlink:href="#right-arrow-red-svg"></use>
-                        </svg> 
-                      </i>
-                    </a>
+            <div class="rlztn-slider-ctlr">
+              <div class="fl-prv-nxt show-sm">
+                <span class="fl-prev">
+                  <!-- <i>
+                    <img src="assets/images/fl-prev.svg"> 
+                  </i> -->
+                </span>
+                <span class="fl-next">
+                  <!-- <i><img src="assets/images/fl-next.svg"></i> -->
+                </span>
+              </div>
+              <div class="realizatin-grds rlztnSlider clearfix">
+                <div class="realization-grds-items">
+                  <div class="realization-grd-item">
+                    <div class="realization-grd-item-img-ctlr">
+                      <a href="#" class="overlay-link"></a>
+                      <div class="realization-grd-item-img inline-bg" style="background: url('assets/images/dfp-img-05.jpg');"></div>
+                    </div>
+                    <div class="realizatin-grd-item-des">
+                      <span>Mounting Accessories</span>
+                      <h5 class="rgid-title mHc"><a href="#">Skymount-air-Uplate-Patch</a></h5>
+                      <p class="mHc1">Universal MNT ACC - Airborne, designed for directional antennas, indoor</p>
+                      <a href="#">
+                        More Info
+                        <i>
+                          <svg class="right-arrow-red-svg" width="16" height="16" viewBox="0 0 16 16" fill="#fff">
+                            <use xlink:href="#right-arrow-red-svg"></use>
+                          </svg> 
+                        </i>
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="realization-grds-items">
-                <div class="realization-grd-item">
-                  <div class="realization-grd-item-img-ctlr">
-                    <a href="#" class="overlay-link"></a>
-                    <div class="realization-grd-item-img inline-bg" style="background: url('assets/images/dfp-img-06.jpg');"></div>
-                  </div>
-                  <div class="realizatin-grd-item-des">
-                    <span>Mounting Accessories</span>
-                    <h5 class="rgid-title mHc"><a href="#">Skymount-air-Uplate-Patch</a></h5>
-                    <p class="mHc1">Universal MNT ACC - Airborne, designed for directional antennas, indoor</p>
-                    <a href="#">
-                      More Info
-                      <i>
-                        <svg class="right-arrow-red-svg" width="16" height="16" viewBox="0 0 16 16" fill="#fff">
-                          <use xlink:href="#right-arrow-red-svg"></use>
-                        </svg> 
-                      </i>
-                    </a>
+                <div class="realization-grds-items">
+                  <div class="realization-grd-item">
+                    <div class="realization-grd-item-img-ctlr">
+                      <a href="#" class="overlay-link"></a>
+                      <div class="realization-grd-item-img inline-bg" style="background: url('assets/images/dfp-img-06.jpg');"></div>
+                    </div>
+                    <div class="realizatin-grd-item-des">
+                      <span>Mounting Accessories</span>
+                      <h5 class="rgid-title mHc"><a href="#">Skymount-air-Uplate-Patch</a></h5>
+                      <p class="mHc1">Universal MNT ACC - Airborne, designed for directional antennas, indoor</p>
+                      <a href="#">
+                        More Info
+                        <i>
+                          <svg class="right-arrow-red-svg" width="16" height="16" viewBox="0 0 16 16" fill="#fff">
+                            <use xlink:href="#right-arrow-red-svg"></use>
+                          </svg> 
+                        </i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -409,6 +497,39 @@
         <div class="ftr-top-menu clearfix">
           <div class="ftr-top-logo">
             <a href="#"><img src="assets/images/ftr-logo.png"></a>
+            <div class="ftr-socials-media-ctlr">
+              <div class="ftr-socials-media show-md">
+                <ul class="reset-list">
+                  <li>
+                    <a href="#">
+                      <i>
+                        <svg class="facebook-svg" width="14" height="24" viewBox="0 0 14 24" fill="#43587B">
+                          <use xlink:href="#facebook-svg"></use>
+                        </svg> 
+                      </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i>
+                        <svg class="twiter-svg" width="24" height="22" viewBox="0 0 24 22" fill="#43587B">
+                          <use xlink:href="#twiter-svg"></use>
+                        </svg> 
+                      </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i>
+                        <svg class="instagram-svg" width="24" height="24" viewBox="0 0 24 24" fill="#43587B">
+                          <use xlink:href="#instagram-svg"></use>
+                        </svg> 
+                      </i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div class="ftr-top-adrs">
               <div class="ftr-top-adrs-lctn">
                 <a href="#">Burgemeester De Cocklaan 10 <br> bus 11 9320 Erembodegem</a>
@@ -421,7 +542,7 @@
               </div>
             </div>
           </div>
-          <div class="ftr-top-menu-col ftr-col-1">
+          <div class="ftr-top-menu-col ftr-col-1 hide-md">
             <h6 class="ftr-top-menu-title">Navigation</h6>
             <ul class="reset-list">
               <li><a href="#">Home</a></li>
@@ -430,7 +551,7 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <div class="ftr-top-menu-col ftr-col-2">
+          <div class="ftr-top-menu-col ftr-col-2 hide-md">
             <h6 class="ftr-top-menu-title">Services & Products</h6>
             <ul class="reset-list">
               <li><a href="#">Mounting accesories</a></li>
@@ -438,7 +559,7 @@
               <li><a href="#">Realizations</a></li>
             </ul>
           </div>
-          <div class="ftr-top-menu-col ftr-col-3">
+          <div class="ftr-top-menu-col ftr-col-3 hide-md">
             <h6 class="ftr-top-menu-title">Product Categories</h6>
             <ul class="reset-list">
               <li><a href="#">Product Category</a></li>
@@ -488,6 +609,35 @@
                   </i>
                 </a>
               </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="mbl-ftr-menu show-md">
+          <div class="ftr-top-menu-col ftr-col-1">
+            <h6 class="ftr-top-menu-title">
+              Navigation
+              
+            </h6>
+            <ul class="reset-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="ftr-top-menu-col ftr-col-2">
+            <h6 class="ftr-top-menu-title">
+              Services & Products
+              
+            </h6>
+            <ul class="reset-list">
+              <li><a href="#">Mounting accesories</a></li>
+              <li><a href="#">Wi-fi & Lan Projects</a></li>
+              <li><a href="#">Realizations</a></li>
             </ul>
           </div>
         </div>

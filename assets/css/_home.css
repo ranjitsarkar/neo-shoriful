@@ -6,6 +6,9 @@
 .nw-usp-sec-inr ul{
 	margin-left: -30px;
 	margin-right: -30px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .nw-usp-sec-inr ul li{
 	float: left;
@@ -340,6 +343,9 @@
 .realizatin-grds{
 	margin-left: -12px;
 	margin-right: -12px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .realization-grds-items{
 	float: left;
@@ -372,6 +378,7 @@
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 13px;
+	line-height: 1;
 	color: #02BEE8;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -569,11 +576,9 @@
 	.hm-pro-btm-btn-ctlr{
 		display: none;
 	}
-	.about-lft-des{
-		width: 100%!important;
-	}
-	.about-rgt-des{
-		width: 100%;
+	.about-sec{
+		position: relative;
+		z-index: 1;
 	}
 	.about-sec {
 	    padding: 80px 0 100px;
@@ -609,16 +614,24 @@
 	.fl-next{
 		z-index: 1;
 	}
-	.about-sec{
-		position: relative;
-		z-index: 1;
-	}
+
 	.about-lft-des-title, .about-rgt-des-title{
 		font-size: 33px;
 	}
 	.about-rgt-des > strong, .about-lft-des > strong{
 		font-size: 27px;
+		margin-bottom: 25px;
 	}
+	.xs-hm-page-bnr{
+		
+		position: relative;
+		z-index: 11;
+		background: #F4F7F9;
+	}
+	.xs-hm-page-bnr-inr{
+		margin-top: -120px;
+	}
+	
 
 	
 }
@@ -646,13 +659,23 @@
 	    padding-left: 0;
 	    padding-right: 0;
 	}
+	.hm-pro-sec .fl-prev{
+		left: -18px!important;
+	}
 	.fl-prev{
-		top: 18%!important;
-		left: -20px!important;
+		top: 24%!important;
+		left: 2px!important;
+		width: 34px;
+		height: 34px;
+	}
+	.hm-pro-sec .fl-next{
+		right: -18px!important;
 	}
 	.fl-next{
-		top: 18%;
-		right: -20px!important;
+		top: 24%;
+		right: 2px!important;
+		height: 34px;
+		width: 34px;
 	}
 	.hm-pro-slider-item-des p{
 		font-size: 14px;
@@ -676,7 +699,8 @@
 		margin-bottom: 20px;
 	}
 	.about-sec {
-	    padding: 60px 0 70px;
+	    padding: 20px 0 170px;
+	    background: #fff;
 	}
 	.realizatin-enty-hdr-title {
 	    font-size: 28px;
@@ -691,12 +715,96 @@
     	padding-right: 0;
 	}
 	.realizatin-grd-item-des {
-	    padding: 25px 20px 35px 30px;
+	    padding: 25px 20px 35px 25px;
 	    border-bottom: 2px solid #F4F7F9;
 	}
 	.realizatin-grd-item-des p {
-	    margin-bottom: 15px;
+	    margin-bottom: 10px;
 	    font-size: 14px;
+	}
+	.nw-usp-sec{
+		padding-bottom: 45px;
+	}
+	.hm-pro-sec{
+		padding-top: 60px;
+	}
+	.about-rgt-des {
+	    margin-top: 50px;
+	    padding-left: 28px;
+	}
+	.realization-grds-items:nth-child(2n+1) {
+	    clear: none;
+	}
+	.realization-sec .slick-slider .slick-dots li{
+		background: #7B8CA8!important;
+		border-color: #7B8CA8!important;
+	}
+	.realization-sec .slick-slider .slick-dots li.slick-active, 
+	.realization-sec .slick-slider .slick-dots li:hover{
+		background: #FF5C26!important;
+		border-color: #FF5C26!important;
+	}
+	.realization-sec .slick-dotted.slick-slider{
+		margin-bottom: 20px;
+	}
+	.realization-btn-ctlr:after{
+		content: none;
+	}
+	.realization-sec {
+	    padding-bottom: 70px;
+	    margin-top: -100px;
+	    position: relative;
+	    z-index: 1;
+	}
+	.hm-pro-slider{
+		padding-bottom: 20px;
+	}
+	.about-sec span.about-top-skew{
+		border-top: none;
+	}
+	.about-sec span.about-btm-skew{
+		border-bottom: none;
+	}
+	.about-sec{
+		position: relative;
+	}
+	.xs-skew{
+		background: #E5E5E5;
+		height: 900px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	.xs-top-skew{
+		width: 0;
+	    height: 0;
+	    border-top: 80px solid #fff;
+	    border-right: 767px solid transparent;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	}
+	.xs-btm-skew{
+		width: 0;
+	    height: 0;
+	    border-bottom: 40px solid #fff;
+	    border-right: 767px solid transparent;
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	}
+	.about-lft-des{
+		width: 100%!important;
+	}
+	.about-rgt-des{
+		width: 100%;
+	}
+	.about-sec{
+		position: relative;
+		z-index: 1;
 	}
 	
 }
@@ -708,6 +816,12 @@
 	.show-xs{
 		display: block!important;
 	}
+	.hm-pro-sec{
+		padding-top: 40px;
+	}
+	.realization-sec {
+	    padding-bottom: 40px;
+	}
 	
 
 }
@@ -716,6 +830,9 @@
 	.realization-btn{
 		padding-left: 0;
 		padding-right: 0;
+	}
+	.xs-skew{
+		height: 985px;
 	}
 
 }
