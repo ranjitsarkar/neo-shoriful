@@ -756,6 +756,10 @@
 	    position: relative;
 	    z-index: 1;
 	}
+	.realization-sec .fl-next,
+	.realization-sec .fl-prev{
+		top: 35%!important;
+	}
 	.hm-pro-slider{
 		padding-bottom: 20px;
 	}
