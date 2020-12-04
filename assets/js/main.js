@@ -181,8 +181,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
         speed: 700,
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow: $('.fl-prv-nxt .fl-prev'),
-        nextArrow: $('.fl-prv-nxt .fl-next'),
+        prevArrow: $('.hm-pro-slider-ctlr .fl-prv-nxt .fl-prev'),
+        nextArrow: $('.hm-pro-slider-ctlr .fl-prv-nxt .fl-next'),
         responsive: [
           {
             breakpoint: 992,

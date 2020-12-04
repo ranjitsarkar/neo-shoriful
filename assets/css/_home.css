@@ -609,11 +609,6 @@
 	.realization-btn-ctlr:after{
 		z-index: 0;
 	}
-	.realization-btn,
-	.fl-prev,
-	.fl-next{
-		z-index: 1;
-	}
 
 	.about-lft-des-title, .about-rgt-des-title{
 		font-size: 33px;

@@ -301,3 +301,141 @@
 	left: 0;
 	z-index: 11;
 }
+
+
+@media(max-width: 1499px){
+	
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.hide-lg{
+		display: none!important;
+	}
+	.show-lg{
+		display: block!important;
+	}
+	
+
+}
+
+@media(max-width: 991px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+	.nw-contact-form-sec {
+	    padding-top: 50px;
+	    padding-bottom: 40px;
+	}
+	.nw-contact-form-lft{
+		width: 100%;
+	}
+	.nw-contact-form-rgt {
+	    width: 100%;
+	    padding-left: 0;
+	    margin-top: 60px;
+	}
+	.nw-cfl-title{
+		font-size: 34px;
+	}
+	.nw-cfrgt-title{
+		font-size: 28px;
+		margin-bottom: 50px;
+	}
+	.nw-contact-location a, 
+	.nw-contact-tel span, 
+	.nw-contact-mail span{
+		font-size: 28px;
+		margin-bottom: 50px;
+	}
+	.google-map {
+	    margin-top: 0px;
+	}
+	
+	
+}
+
+@media(max-width: 767px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+	.nw-contact-form-lft {
+	    padding: 45px 45px;
+	}
+	.nw-cfl-title {
+	    font-size: 32px;
+	    margin-bottom: 12px;
+	}
+	.nw-cfrgt-title {
+	    font-size: 25px;
+	    margin-bottom: 40px;
+	    padding-bottom: 20px;
+	}
+	.nw-contact-location a, 
+	.nw-contact-tel span, 
+	.nw-contact-mail span {
+	    font-size: 25px;
+	    margin-bottom: 40px;
+	}
+	.google-map-top-skew{
+		border-top: 130px solid #F4F7F9;
+	}
+	
+}
+
+@media(max-width: 575px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+		.nw-cfl-title {
+	    font-size: 30px;
+	}
+	.nw-contact-form-sec .wpforms-field-container {
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+	.nw-contact-form-sec .wpforms-form .wpforms-field-container .wpforms-field {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.nw-contact-location a, .nw-contact-tel span, .nw-contact-mail span {
+	    font-size: 22px;
+	    margin-bottom: 35px;
+	}
+	.google-map #mapID{
+		height: 600px!important;
+	}
+	.google-map-top-skew{
+		border-top: 70px solid #F4F7F9;
+	}
+	
+
+}
+
+@media(max-width: 479px){
+	.nw-contact-form-lft {
+	    padding: 30px 20px;
+	}
+
+}
+
+@media(max-width: 359px){
+
+}

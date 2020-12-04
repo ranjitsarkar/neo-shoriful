@@ -1064,10 +1064,11 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	}
 	.hm-pbr-grd-item-des{
 		left: 10px;
+		right: 0;
 	}
 	.hm-pbr-grd-item-des a {
 	    font-size: 28px;
-	    display: block;
+	    display: block!important;
 	    padding-right: 30px;
 	}
 	.hm-pbr-grd-item-des a i{
