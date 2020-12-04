@@ -159,6 +159,9 @@
 .nw-our-team-grds ul{
 	margin-left: -12px;
 	margin-right: -12px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .nw-our-team-grds ul li{
 	float: left;
@@ -240,4 +243,265 @@
 }
 .nw-our-team-grd-item-tel span a:hover{
 	color: #FF5C26;
+}
+
+
+
+@media(max-width: 1499px){
+	
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.hide-lg{
+		display: none!important;
+	}
+	.show-lg{
+		display: block!important;
+	}
+	.nw-about-top-skew{
+		border-top: 150px solid #fff;
+	}
+	.nw-img-btm-skew{
+		border-bottom: 350px solid #F4F7F9;
+	}
+	.nw-about-btm-skew{
+		border-bottom: 150px solid #fff;
+	}
+	.nw-about-sec-des-ctlr {
+	    padding-bottom: 190px;
+	}
+	.nw-about-rgt-des {
+	    margin-top: 100px;
+	}
+	.nw-ar-rgt-des {
+	    padding-left: 60px;
+	}
+	.nw-ar-rgt-des-title{
+		margin-bottom: 20px;
+	}
+	.nw-ar-rgt-des span{
+		margin-bottom: 20px;
+	}
+	.nw-ar-rgt-des ul {
+	    padding-bottom: 15px;
+	}
+	.nw-about-rgt-des{
+		padding-left: 70px;
+	}
+	.nw-our-team-grd-item-tel span {
+	    font-size: 15px;
+	    padding-left: 25px;
+	}
+	.nw-our-team-grds{
+		padding-bottom: 58px;
+	}
+	
+
+}
+
+@media(max-width: 991px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+	.nw-about-realization-sec {
+	    padding-top: 80px;
+	    padding-bottom: 50px;
+	}
+	.nw-ar-lft-img-ctlr{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.nw-ar-rgt-des{
+		width: 100%;
+		padding-left: 0;
+	}
+	.nw-ar-rgt-des-title{
+		font-size: 34px;
+	}
+	.nw-ar-rgt-des span{
+		font-size: 27px;
+	}
+	.nw-about-top-skew {
+	    border-top: 100px solid #fff;
+	}
+	.nw-about-sec-img {
+	    min-height: 600px;
+	}
+	.nw-img-btm-skew {
+	    border-bottom: 240px solid #F4F7F9;
+	}
+	.nw-about-sec-inr {
+	    margin-top: 30px;
+	}
+	.about-lft-des{
+		width: 100%;
+	}
+	.nw-about-rgt-des{
+		width: 100%;
+		padding-left: 0;
+		margin-top: 40px;
+	}
+	.nw-about-btm-skew {
+	    border-bottom: 100px solid #fff;
+	}
+	.nw-about-sec-des-ctlr {
+	    padding-bottom: 120px;
+	}
+	.about-lft-des-title, .about-rgt-des-title{
+		margin-bottom: 20px;
+	}
+	.nw-arri-title{
+		font-size: 28px;
+	}
+	.nw-our-team-entry-hdr-title{
+		font-size: 34px;
+	}
+	.nw-our-team-entry-hdr p br{
+		display: none;
+	}
+	.nw-our-team-grds ul li{
+		width: 33.3333%;
+	}
+	.nw-our-team-grds ul li:nth-child(4n+1) {
+	    clear: none;
+	}
+	.nw-our-team-grds ul li:nth-child(3n+1) {
+	    clear: left;
+	}
+	.nw-our-team-grd-item-title{
+		line-height: 1.1;
+		margin-bottom: 13px;
+	}
+	.nw-our-team-grds {
+	    padding-bottom: 45px;
+	}
+	.nw-our-team-sec {
+	    padding-bottom: 70px;
+	}
+	
+}
+
+@media(max-width: 767px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+	.nw-about-realization-sec {
+	    padding-top: 60px;
+	}
+	.nw-ar-lft-img {
+	    min-height: 400px;
+	}
+	.nw-ar-rgt-des-title {
+	    font-size: 32px;
+	}
+	.nw-ar-rgt-des span {
+	    font-size: 25px;
+	}
+	.nw-about-sec-img {
+	    min-height: 450px;
+	}
+	.nw-about-top-skew {
+	    border-top: 60px solid #fff;
+	}
+	.nw-about-btm-skew {
+	    border-bottom: 60px solid #fff;
+	}
+	.nw-img-btm-skew {
+	    border-bottom: 150px solid #F4F7F9;
+	}
+	.nw-arri-title {
+	    font-size: 26px;
+	}
+	.nw-about-rgt-rgd-item p{
+		margin-bottom: 20px;
+	}
+	.nw-our-team-entry-hdr-title {
+	    font-size: 32px;
+	}
+	.nw-our-team-grds ul li {
+	    width: 50%;
+	}
+	.nw-our-team-grds ul li:nth-child(3n+1) {
+	    clear: none;
+	}
+	.nw-our-team-grds ul li:nth-child(2n+1) {
+	    clear: left;
+	}
+	.nw-our-team-grds {
+	    padding-bottom: 30px;
+	}
+	.nw-our-team-sec {
+	    padding-bottom: 40px;
+	}
+	.about-ctlr .realization-sec{
+		margin-top: 0;
+	}
+	
+}
+
+@media(max-width: 575px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+	.nw-ar-rgt-des-title {
+	    font-size: 30px;
+	}
+	.nw-img-btm-skew {
+	    border-bottom: 100px solid #F4F7F9;
+	}
+	.nw-arri-title {
+	    font-size: 24px;
+	}
+	.nw-about-sec-des-ctlr {
+	    padding-bottom: 75px;
+	}
+	.nw-our-team-entry-hdr-title {
+	    font-size: 30px;
+	}
+	.nw-our-team-grds ul{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.nw-our-team-grds ul li{
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 30px;
+	}
+	.nw-our-team-grd-item-des strong{
+		padding-bottom: 12px;
+	}
+	
+
+}
+
+@media(max-width: 479px){
+	.nw-ar-lft-img {
+	    min-height: 300px;
+	}
+	.nw-about-sec-img {
+	    min-height: 400px;
+	}
+
+}
+
+@media(max-width: 359px){
+
 }
