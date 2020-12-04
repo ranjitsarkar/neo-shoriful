@@ -342,15 +342,11 @@
 	    border-bottom: 240px solid #F4F7F9;
 	}
 	.nw-about-sec-inr {
-	    margin-top: 30px;
+	    margin-top: -140px;
 	}
-	.about-lft-des{
-		width: 100%;
-	}
-	.nw-about-rgt-des{
-		width: 100%;
-		padding-left: 0;
-		margin-top: 40px;
+	.nw-about-rgt-des {
+	    padding-left: 35px;
+	    margin-top: 60px;
 	}
 	.nw-about-btm-skew {
 	    border-bottom: 100px solid #fff;
@@ -450,6 +446,17 @@
 	.about-ctlr .realization-sec{
 		margin-top: 0;
 	}
+	.about-lft-des{
+		width: 100%;
+	}
+	.nw-about-rgt-des{
+		width: 100%;
+		padding-left: 0;
+		margin-top: 40px;
+	}
+	.nw-about-sec-inr {
+	    margin-top: 30px;
+	}
 	
 }
 
@@ -503,5 +510,5 @@
 }
 
 @media(max-width: 359px){
-
+	
 }

@@ -1059,9 +1059,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	#catapult-cookie-bar{
 		right: 0;
 	}
-	.hm-page-banner-btn{
-		padding-bottom: 120px;
-	}
 	.hm-pbr-grd-item-des{
 		left: 10px;
 		right: 0;
@@ -1070,9 +1067,36 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	    font-size: 28px;
 	    display: block!important;
 	    padding-right: 30px;
+	    line-height: 1;
 	}
 	.hm-pbr-grd-item-des a i{
 		right: 10px;
+	}
+	.page-banner-title {
+	    font-size: 36px;
+	}
+	.bredcrumbs ul li a{
+		display: none;
+	}
+	.bredcrumbs ul li:first-child a{
+		display: inline-block;
+		vertical-align: baseline;
+		padding-right: 60px;
+		position: relative;
+	}
+	.bredcrumbs ul li:first-child a:after{
+		content: "";
+		position: absolute;
+		top: 50%;
+		right: 0;
+		background: #fff;
+		width: 5px;
+		height: 5px;
+		border-radius: 100%;
+	}
+	.bredcrumbs ul li:last-child a{
+		display: inline-block;
+		vertical-align: baseline;
 	}
 	
 	
