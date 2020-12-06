@@ -86,6 +86,7 @@
 </head>
 <body>
 <header class="header">
+  <div class="bdovelay"></div>
   <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -146,11 +147,87 @@
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
       </div>
   </div>
+  <div class="mobile-hdr">
+    <div class="xs-menu-ctlr" style="display: none;">
+      <div class="mobile-main-menu">
+        <div class="mobile-logo">
+          <a href="#"><img src="assets/images/logo.png"></a>
+        </div>
+        <nav class="main-menu">
+          <ul class="reset-list">
+            <li><a href="#">products</a></li>
+            <li><a href="#">Wi-Fi / LAN</a></li>
+          </ul>
+        </nav>
+        <div class="hdr-rgt-top-menu">
+          <div class="hdr-rgt-top-menu-inr">
+            <ul class="reset-list">
+              <li><a class="active" href="#">Home</a></li>
+              <li class="menu-item-has-children">
+                <a href="#">About Us</a>
+                <ul class="sub-menu">
+                  <li><a href="#">Blog 1</a></li>
+                  <li><a href="#">Blog 2</a></li>
+                  <li><a href="#">Blog 3</a></li>
+                  <li><a href="#">Blog 4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="mobile-search">
+            <input type="text" name="" placeholder="search">
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <div class="xs-shipping-cart">
+            <a href="#">
+              Shopping Cart
+              <i>
+                <svg class="shopping-cart-svg" width="20" height="20" viewBox="0 0 20 20" fill="#fff">
+                  <use xlink:href="#shopping-cart-svg"></use>
+                </svg> 
+              </i>
+            </a>
+          </div>
+          <div class="hdr-rgt-top-menu-lang">
+            <div class="hdr-rgt-top-menu-lang-inr">
+              <ul class="reset-list">
+                <li class="active"><a href="#">EN</a></li>
+                <li><a href="#">ES</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </header>
+<div class="mobile-menu-ctlr show-md">
+  <div class="mobile-menu">
+    <div class="humberger">
+      <div class="humberger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="mobile-shipping-cart">
+      <a href="#">
+        <i>
+          <svg class="shopping-cart-svg" width="20" height="20" viewBox="0 0 20 20" fill="#fff">
+            <use xlink:href="#shopping-cart-svg"></use>
+          </svg> 
+        </i>
+      </a>
+    </div>
+  </div>
+</div>
 
 <section class="page-banner-cnt">
   <div id="particles-js"></div>
@@ -186,7 +263,7 @@
               <input type="text" name="" placeholder="Search Products">
               <button><i class="fas fa-search"></i></button>
             </div>
-            <div class="nw-pro-overview-filter">
+            <div class="nw-pro-overview-filter hide-sm">
               <form>
                 <span>Sort By:</span>
                 <select class="selectpicker">
@@ -199,8 +276,9 @@
           </div>
           <div class="nw-pro-overview-grd clearfix">
             <div class="nw-pro-overview-lftsidebar">
-              <h2 class="nw-pro-overview-lftsidebar-title">Categories</h2>
-              <div class="nw-pols-link">
+              <h2 class="nw-pro-overview-lftsidebar-title hide-sm">Categories</h2>
+              <div class="nw-pols-link xs-pro-filter">
+                <h3 class="nw-pro-overview-lftsidebar-title show-sm">Categories</h3>
                 <ul>
                   <li class="active"><a href="#">ALL</a></li>
                   <li class="menu-item-has-children">
@@ -216,94 +294,133 @@
               </div>
               <div class="nw-pols-checkmark">
                 <form>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="all">
-                    <span class="checkmark"></span>
-                    <label for="all">all</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="indoor">
-                    <span class="checkmark"></span>
-                    <label for="indoor">indoor</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Outdoor">
-                    <span class="checkmark"></span>
-                    <label for="Outdoor">Outdoor</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Universal">
-                    <span class="checkmark"></span>
-                    <label for="Universal">Universal</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Cisco">
-                    <span class="checkmark"></span>
-                    <label for="Cisco">Cisco</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Meraki">
-                    <span class="checkmark"></span>
-                    <label for="Meraki">Meraki</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="HP/Aruba">
-                    <span class="checkmark"></span>
-                    <label for="HP/Aruba">HP/Aruba</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Mist">
-                    <span class="checkmark"></span>
-                    <label for="Mist">Mist</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Aerohive">
-                    <span class="checkmark"></span>
-                    <label for="Aerohive">Aerohive</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Ruckus">
-                    <span class="checkmark"></span>
-                    <label for="Ruckus">Ruckus</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Ubiquiti">
-                    <span class="checkmark"></span>
-                    <label for="Ubiquiti">Ubiquiti</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Fortinet">
-                    <span class="checkmark"></span>
-                    <label for="Fortinet">Fortinet</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Airborne">
-                    <span class="checkmark"></span>
-                    <label for="Airborne">Airborne</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Wall">
-                    <span class="checkmark"></span>
-                    <label for="Wall">Wall</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Pole">
-                    <span class="checkmark"></span>
-                    <label for="Pole">Pole</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Directional">
-                    <span class="checkmark"></span>
-                    <label for="Directional">Directional</label>
-                  </div>
-                  <div class="filter-check-row">
-                    <input type="checkbox" id="Omnidirectional">
-                    <span class="checkmark"></span>
-                    <label for="Omnidirectional">Omnidirectional</label>
+                  <div class="xs-pro-filter">
+                    <h3 class="nw-pols-checkmark-title show-sm">Filter Options</h3>
+                    <ul class="reset-list">
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="all">
+                          <span class="checkmark"></span>
+                          <label for="all">all</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="indoor">
+                          <span class="checkmark"></span>
+                          <label for="indoor">indoor</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Outdoor">
+                          <span class="checkmark"></span>
+                          <label for="Outdoor">Outdoor</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Universal">
+                          <span class="checkmark"></span>
+                          <label for="Universal">Universal</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Cisco">
+                          <span class="checkmark"></span>
+                          <label for="Cisco">Cisco</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Meraki">
+                          <span class="checkmark"></span>
+                          <label for="Meraki">Meraki</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="HP/Aruba">
+                          <span class="checkmark"></span>
+                          <label for="HP/Aruba">HP/Aruba</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Mist">
+                          <span class="checkmark"></span>
+                          <label for="Mist">Mist</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Aerohive">
+                          <span class="checkmark"></span>
+                          <label for="Aerohive">Aerohive</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Ruckus">
+                          <span class="checkmark"></span>
+                          <label for="Ruckus">Ruckus</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Ubiquiti">
+                          <span class="checkmark"></span>
+                          <label for="Ubiquiti">Ubiquiti</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Fortinet">
+                          <span class="checkmark"></span>
+                          <label for="Fortinet">Fortinet</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Airborne">
+                          <span class="checkmark"></span>
+                          <label for="Airborne">Airborne</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Wall">
+                          <span class="checkmark"></span>
+                          <label for="Wall">Wall</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Pole">
+                          <span class="checkmark"></span>
+                          <label for="Pole">Pole</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Directional">
+                          <span class="checkmark"></span>
+                          <label for="Directional">Directional</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="filter-check-row">
+                          <input type="checkbox" id="Omnidirectional">
+                          <span class="checkmark"></span>
+                          <label for="Omnidirectional">Omnidirectional</label>
+                        </div>
+                      </li>
+                    </ul>
                   </div>
                 </form>
               </div>
-              <div class="nw-pols-radio">
+              <div class="nw-pols-radio xs-pro-filter">
                 <h3 class="nw-pols-radio-title">Radio Filter</h3>
                 <ul class="reset-list">
                   <li>
@@ -328,6 +445,16 @@
                     </div>
                   </li>
                 </ul>
+              </div>
+              <div class="nw-pro-overview-filter show-sm">
+                <form>
+                  <span>Sort By:</span>
+                  <select class="selectpicker">
+                    <option>Price: Ascending</option>
+                    <option>Price: Ascending 1</option>
+                    <option>Price: Ascending 2</option>
+                  </select>
+                </form>
               </div>
             </div>
             <div class="nw-pro-overview-grds-item">
@@ -401,7 +528,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="hide-sm">
                   <div class="nw-pro-overview-grd-item">
                     <div class="nw-pro-overview-grd-item-img-ctlr">
                       <a href="#" class="overlay-link"></a>
@@ -424,7 +551,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="hide-sm">
                   <div class="nw-pro-overview-grd-item">
                     <div class="nw-pro-overview-grd-item-img-ctlr">
                       <a href="#" class="overlay-link"></a>
@@ -447,7 +574,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="hide-sm">
                   <div class="nw-pro-overview-grd-item">
                     <div class="nw-pro-overview-grd-item-img-ctlr">
                       <a href="#" class="overlay-link"></a>
@@ -470,7 +597,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="hide-sm">
                   <div class="nw-pro-overview-grd-item">
                     <div class="nw-pro-overview-grd-item-img-ctlr">
                       <a href="#" class="overlay-link"></a>
@@ -493,7 +620,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="hide-sm">
                   <div class="nw-pro-overview-grd-item">
                     <div class="nw-pro-overview-grd-item-img-ctlr">
                       <a href="#" class="overlay-link"></a>
@@ -516,7 +643,7 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="hide-sm">
                   <div class="nw-pro-overview-grd-item">
                     <div class="nw-pro-overview-grd-item-img-ctlr">
                       <a href="#" class="overlay-link"></a>
@@ -544,52 +671,6 @@
                     <div class="nw-pro-overview-grd-item-img-ctlr">
                       <a href="#" class="overlay-link"></a>
                       <div class="nw-pro-overview-grd-item-img inline-bg" style="background: url('assets/images/nw-pro-overview-img-01.jpg');">
-                        
-                      </div>
-                    </div>
-                    <div class="nw-pro-overview-grd-item-des">
-                      <strong>Mounting Accessories</strong>
-                      <h5 class="nw-pogid-title mHc"><a href="#">Skymount-air-Uplate-Patch</a></h5>
-                      <p class="mHc1">Universal MNT ACC - Airborne, designed for directional antennas, indoor</p>
-                      <a href="#">
-                        More Info
-                        <i>
-                          <svg class="right-arrow-red-svg" width="16" height="16" viewBox="0 0 16 16" fill="#fff">
-                            <use xlink:href="#right-arrow-red-svg"></use>
-                          </svg> 
-                        </i>
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="nw-pro-overview-grd-item">
-                    <div class="nw-pro-overview-grd-item-img-ctlr">
-                      <a href="#" class="overlay-link"></a>
-                      <div class="nw-pro-overview-grd-item-img inline-bg" style="background: url('assets/images/nw-pro-overview-img-02.jpg');">
-                        
-                      </div>
-                    </div>
-                    <div class="nw-pro-overview-grd-item-des">
-                      <strong>Mounting Accessories</strong>
-                      <h5 class="nw-pogid-title mHc"><a href="#">Skymount-air-Uplate-Patch</a></h5>
-                      <p class="mHc1">Universal MNT ACC - Airborne, designed for directional antennas, indoor</p>
-                      <a href="#">
-                        More Info
-                        <i>
-                          <svg class="right-arrow-red-svg" width="16" height="16" viewBox="0 0 16 16" fill="#fff">
-                            <use xlink:href="#right-arrow-red-svg"></use>
-                          </svg> 
-                        </i>
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="nw-pro-overview-grd-item">
-                    <div class="nw-pro-overview-grd-item-img-ctlr">
-                      <a href="#" class="overlay-link"></a>
-                      <div class="nw-pro-overview-grd-item-img inline-bg" style="background: url('assets/images/nw-pro-overview-img-03.jpg');">
                         
                       </div>
                     </div>
@@ -654,7 +735,53 @@
                     </div>
                   </div>
                 </li>
-                <li>
+                <li class="hide-sm">
+                  <div class="nw-pro-overview-grd-item">
+                    <div class="nw-pro-overview-grd-item-img-ctlr">
+                      <a href="#" class="overlay-link"></a>
+                      <div class="nw-pro-overview-grd-item-img inline-bg" style="background: url('assets/images/nw-pro-overview-img-02.jpg');">
+                        
+                      </div>
+                    </div>
+                    <div class="nw-pro-overview-grd-item-des">
+                      <strong>Mounting Accessories</strong>
+                      <h5 class="nw-pogid-title mHc"><a href="#">Skymount-air-Uplate-Patch</a></h5>
+                      <p class="mHc1">Universal MNT ACC - Airborne, designed for directional antennas, indoor</p>
+                      <a href="#">
+                        More Info
+                        <i>
+                          <svg class="right-arrow-red-svg" width="16" height="16" viewBox="0 0 16 16" fill="#fff">
+                            <use xlink:href="#right-arrow-red-svg"></use>
+                          </svg> 
+                        </i>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="hide-sm">
+                  <div class="nw-pro-overview-grd-item">
+                    <div class="nw-pro-overview-grd-item-img-ctlr">
+                      <a href="#" class="overlay-link"></a>
+                      <div class="nw-pro-overview-grd-item-img inline-bg" style="background: url('assets/images/nw-pro-overview-img-03.jpg');">
+                        
+                      </div>
+                    </div>
+                    <div class="nw-pro-overview-grd-item-des">
+                      <strong>Mounting Accessories</strong>
+                      <h5 class="nw-pogid-title mHc"><a href="#">Skymount-air-Uplate-Patch</a></h5>
+                      <p class="mHc1">Universal MNT ACC - Airborne, designed for directional antennas, indoor</p>
+                      <a href="#">
+                        More Info
+                        <i>
+                          <svg class="right-arrow-red-svg" width="16" height="16" viewBox="0 0 16 16" fill="#fff">
+                            <use xlink:href="#right-arrow-red-svg"></use>
+                          </svg> 
+                        </i>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="hide-sm">
                   <div class="nw-pro-overview-grd-item">
                     <div class="nw-pro-overview-grd-item-img-ctlr">
                       <a href="#" class="overlay-link"></a>
@@ -765,6 +892,39 @@
         <div class="ftr-top-menu clearfix">
           <div class="ftr-top-logo">
             <a href="#"><img src="assets/images/ftr-logo.png"></a>
+            <div class="ftr-socials-media-ctlr">
+              <div class="ftr-socials-media show-md">
+                <ul class="reset-list">
+                  <li>
+                    <a href="#">
+                      <i>
+                        <svg class="facebook-svg" width="14" height="24" viewBox="0 0 14 24" fill="#43587B">
+                          <use xlink:href="#facebook-svg"></use>
+                        </svg> 
+                      </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i>
+                        <svg class="twiter-svg" width="24" height="22" viewBox="0 0 24 22" fill="#43587B">
+                          <use xlink:href="#twiter-svg"></use>
+                        </svg> 
+                      </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i>
+                        <svg class="instagram-svg" width="24" height="24" viewBox="0 0 24 24" fill="#43587B">
+                          <use xlink:href="#instagram-svg"></use>
+                        </svg> 
+                      </i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div class="ftr-top-adrs">
               <div class="ftr-top-adrs-lctn">
                 <a href="#">Burgemeester De Cocklaan 10 <br> bus 11 9320 Erembodegem</a>
@@ -777,7 +937,7 @@
               </div>
             </div>
           </div>
-          <div class="ftr-top-menu-col ftr-col-1">
+          <div class="ftr-top-menu-col ftr-col-1 hide-md">
             <h6 class="ftr-top-menu-title">Navigation</h6>
             <ul class="reset-list">
               <li><a href="#">Home</a></li>
@@ -786,7 +946,7 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <div class="ftr-top-menu-col ftr-col-2">
+          <div class="ftr-top-menu-col ftr-col-2 hide-md">
             <h6 class="ftr-top-menu-title">Services & Products</h6>
             <ul class="reset-list">
               <li><a href="#">Mounting accesories</a></li>
@@ -794,7 +954,7 @@
               <li><a href="#">Realizations</a></li>
             </ul>
           </div>
-          <div class="ftr-top-menu-col ftr-col-3">
+          <div class="ftr-top-menu-col ftr-col-3 hide-md">
             <h6 class="ftr-top-menu-title">Product Categories</h6>
             <ul class="reset-list">
               <li><a href="#">Product Category</a></li>
@@ -844,6 +1004,35 @@
                   </i>
                 </a>
               </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="mbl-ftr-menu show-md">
+          <div class="ftr-top-menu-col ftr-col-1">
+            <h6 class="ftr-top-menu-title">
+              Navigation
+              
+            </h6>
+            <ul class="reset-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="ftr-top-menu-col ftr-col-2">
+            <h6 class="ftr-top-menu-title">
+              Services & Products
+              
+            </h6>
+            <ul class="reset-list">
+              <li><a href="#">Mounting accesories</a></li>
+              <li><a href="#">Wi-fi & Lan Projects</a></li>
+              <li><a href="#">Realizations</a></li>
             </ul>
           </div>
         </div>
