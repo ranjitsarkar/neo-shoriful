@@ -594,5 +594,36 @@
 	.nw-pd-cta p {
 	    font-size: 19px;
 	}
+	.nw-pd-pro-shipping-cart button{
+		width: 180px;
+	}
+	.nw-pd-pro-shipping-cart button i{
+		left: 10px;
+	}
+	.nw-pd-pro-quantity {
+	    margin-left: 0px;
+	    position: relative;
+	}
+	.nw-pd-pro-quantity .quantity .qty {
+	    padding-left: 13px;
+	    width: 40px;
+	}
+	.nw-pd-pro-quantity .plus{
+		width: 30px;
+	    height: 50px;
+	    font-size: 38px;
+	    line-height: 1;
+	    right: -35px;
+	    top: 50%;
+	}
+	.nw-pd-pro-quantity .minus{
+		width: 30px;
+	    height: 50px;
+	    font-size: 37px;
+	    right: -70px;
+	    top: 50%;
+    	bottom: initial;
+    	line-height: 1;
+	}
 }
 
