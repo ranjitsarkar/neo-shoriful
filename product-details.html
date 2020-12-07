@@ -80,12 +80,20 @@
       <path d="M11.9997 17.3477C9.05096 17.3477 6.65088 14.9492 6.65088 11.9997C6.65088 9.05018 9.05018 6.65088 11.9997 6.65088C14.9484 6.65088 17.3477 9.04941 17.3477 11.9997C17.3477 14.9492 14.9491 17.3477 11.9997 17.3477ZM11.9997 8.02246C9.80668 8.02246 8.02169 9.80745 8.02169 12.0004C8.02169 14.1934 9.80668 15.9769 11.9997 15.9769C14.1927 15.9769 15.9761 14.1934 15.9761 12.0004C15.9761 9.80745 14.1927 8.02246 11.9997 8.02246Z"/>
       <path d="M19.7487 7.23343H16.6632C16.2846 7.23343 15.9771 6.92666 15.9771 6.54803V3.46177C15.9771 3.08314 16.2846 2.77637 16.6632 2.77637H19.7487C20.1273 2.77637 20.4341 3.08314 20.4341 3.46177V6.54803C20.4333 6.92743 20.1273 7.23343 19.7487 7.23343ZM17.3479 5.86185H19.0625V4.14795H17.3479V5.86185Z"/>
     </symbol>
+    <symbol id="pd-down-arrow-blue-svg" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.3277 14.569C12.088 13.9434 13.4986 12.6719 14.2996 10.9887C15.1006 9.3055 15.1961 7.41203 14.5686 5.65718C13.9411 3.90233 12.6656 2.49607 10.9772 1.69754C9.2888 0.899055 7.38952 0.803816 5.62921 1.42938C5.48105 1.48203 5.40388 1.6445 5.45661 1.79212C5.50943 1.93983 5.6723 2.01685 5.82047 1.96419C7.43746 1.38949 9.18216 1.47697 10.7331 2.2105C12.2841 2.94402 13.4558 4.23578 14.0322 5.8478C14.6086 7.45982 14.5208 9.19919 13.7851 10.7454C13.0493 12.2916 11.7535 13.4596 10.1365 14.0343C8.51955 14.6089 6.77485 14.5215 5.22387 13.7879C3.67289 13.0544 2.50125 11.7627 1.92483 10.1506C1.27878 8.34384 1.4743 6.3618 2.46129 4.71283C2.54192 4.57809 2.49774 4.40393 2.36267 4.32359C2.22761 4.24326 2.05282 4.28726 1.97224 4.42191C1.31504 5.51988 0.980219 6.75326 0.980267 7.99591C0.980267 8.78479 1.11528 9.57755 1.38836 10.3413C2.0159 12.0962 3.29133 13.5023 4.97975 14.3009C6.66821 15.0994 8.56748 15.1946 10.3277 14.569Z" fill="white" stroke="#02BEE8"/>
+      <path d="M7.97892 11.1215C8.13615 11.1215 8.26367 10.9943 8.26367 10.8376L8.26367 3.76776C8.26367 3.61097 8.13615 3.48389 7.97892 3.48389C7.8217 3.48389 7.69418 3.61097 7.69418 3.76776L7.69418 10.8376C7.69418 10.9943 7.82169 11.1215 7.97892 11.1215Z" fill="white" stroke="#02BEE8"/>
+      <path d="M4.7667 8.61882C4.6555 8.50792 4.47521 8.50792 4.36401 8.61882C4.30844 8.67422 4.28063 8.74689 4.28063 8.81952C4.28063 8.89214 4.30844 8.96481 4.36401 9.02021L7.54371 12.1901C7.6549 12.301 7.83519 12.301 7.94639 12.1901L11.1261 9.02021C11.2373 8.90941 11.2373 8.72958 11.1261 8.61882C11.0149 8.50792 10.8346 8.50792 10.7234 8.61882L7.74507 11.588L4.7667 8.61882Z" fill="white" stroke="#02BEE8"/>
+    </symbol>
+
+
 
   </svg>
 
 </head>
 <body>
 <header class="header">
+  <div class="bdovelay"></div>
   <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -146,11 +154,87 @@
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
       </div>
   </div>
+  <div class="mobile-hdr">
+    <div class="xs-menu-ctlr" style="display: none;">
+      <div class="mobile-main-menu">
+        <div class="mobile-logo">
+          <a href="#"><img src="assets/images/logo.png"></a>
+        </div>
+        <nav class="main-menu">
+          <ul class="reset-list">
+            <li><a href="#">products</a></li>
+            <li><a href="#">Wi-Fi / LAN</a></li>
+          </ul>
+        </nav>
+        <div class="hdr-rgt-top-menu">
+          <div class="hdr-rgt-top-menu-inr">
+            <ul class="reset-list">
+              <li><a class="active" href="#">Home</a></li>
+              <li class="menu-item-has-children">
+                <a href="#">About Us</a>
+                <ul class="sub-menu">
+                  <li><a href="#">Blog 1</a></li>
+                  <li><a href="#">Blog 2</a></li>
+                  <li><a href="#">Blog 3</a></li>
+                  <li><a href="#">Blog 4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="mobile-search">
+            <input type="text" name="" placeholder="search">
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <div class="xs-shipping-cart">
+            <a href="#">
+              Shopping Cart
+              <i>
+                <svg class="shopping-cart-svg" width="20" height="20" viewBox="0 0 20 20" fill="#fff">
+                  <use xlink:href="#shopping-cart-svg"></use>
+                </svg> 
+              </i>
+            </a>
+          </div>
+          <div class="hdr-rgt-top-menu-lang">
+            <div class="hdr-rgt-top-menu-lang-inr">
+              <ul class="reset-list">
+                <li class="active"><a href="#">EN</a></li>
+                <li><a href="#">ES</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </header>
+<div class="mobile-menu-ctlr show-md">
+  <div class="mobile-menu">
+    <div class="humberger">
+      <div class="humberger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="mobile-shipping-cart">
+      <a href="#">
+        <i>
+          <svg class="shopping-cart-svg" width="20" height="20" viewBox="0 0 20 20" fill="#fff">
+            <use xlink:href="#shopping-cart-svg"></use>
+          </svg> 
+        </i>
+      </a>
+    </div>
+  </div>
+</div>
 
 <section class="page-banner-cnt">
   <div id="particles-js"></div>
@@ -191,8 +275,8 @@
               <a href="#">
                 View Gallery
                 <i>
-                  <svg class="rgt-arrow-blue-svg" width="16" height="16" viewBox="0 0 16 16" fill="#fff">
-                    <use xlink:href="#rgt-arrow-blue-svg"></use>
+                  <svg class="pd-down-arrow-blue-svg" width="16" height="16" viewBox="0 0 16 16" fill="#02BEE8">
+                    <use xlink:href="#pd-down-arrow-blue-svg"></use>
                   </svg> 
                 </i>
               </a>
@@ -292,8 +376,6 @@
                       
                     </div>
                   </figure>
-                </div>
-                <div class="gallery gallery-columns-3">
                   <figure class="gallery-item">
                     <div class="gallery-icon portrait" >
                       <a href="assets/images/dfp-img-06.jpg" data-fancybox="gallery">
@@ -505,6 +587,39 @@
         <div class="ftr-top-menu clearfix">
           <div class="ftr-top-logo">
             <a href="#"><img src="assets/images/ftr-logo.png"></a>
+            <div class="ftr-socials-media-ctlr">
+              <div class="ftr-socials-media show-md">
+                <ul class="reset-list">
+                  <li>
+                    <a href="#">
+                      <i>
+                        <svg class="facebook-svg" width="14" height="24" viewBox="0 0 14 24" fill="#43587B">
+                          <use xlink:href="#facebook-svg"></use>
+                        </svg> 
+                      </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i>
+                        <svg class="twiter-svg" width="24" height="22" viewBox="0 0 24 22" fill="#43587B">
+                          <use xlink:href="#twiter-svg"></use>
+                        </svg> 
+                      </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i>
+                        <svg class="instagram-svg" width="24" height="24" viewBox="0 0 24 24" fill="#43587B">
+                          <use xlink:href="#instagram-svg"></use>
+                        </svg> 
+                      </i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div class="ftr-top-adrs">
               <div class="ftr-top-adrs-lctn">
                 <a href="#">Burgemeester De Cocklaan 10 <br> bus 11 9320 Erembodegem</a>
@@ -517,7 +632,7 @@
               </div>
             </div>
           </div>
-          <div class="ftr-top-menu-col ftr-col-1">
+          <div class="ftr-top-menu-col ftr-col-1 hide-md">
             <h6 class="ftr-top-menu-title">Navigation</h6>
             <ul class="reset-list">
               <li><a href="#">Home</a></li>
@@ -526,7 +641,7 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <div class="ftr-top-menu-col ftr-col-2">
+          <div class="ftr-top-menu-col ftr-col-2 hide-md">
             <h6 class="ftr-top-menu-title">Services & Products</h6>
             <ul class="reset-list">
               <li><a href="#">Mounting accesories</a></li>
@@ -534,7 +649,7 @@
               <li><a href="#">Realizations</a></li>
             </ul>
           </div>
-          <div class="ftr-top-menu-col ftr-col-3">
+          <div class="ftr-top-menu-col ftr-col-3 hide-md">
             <h6 class="ftr-top-menu-title">Product Categories</h6>
             <ul class="reset-list">
               <li><a href="#">Product Category</a></li>
@@ -584,6 +699,35 @@
                   </i>
                 </a>
               </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="mbl-ftr-menu show-md">
+          <div class="ftr-top-menu-col ftr-col-1">
+            <h6 class="ftr-top-menu-title">
+              Navigation
+              
+            </h6>
+            <ul class="reset-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="ftr-top-menu-col ftr-col-2">
+            <h6 class="ftr-top-menu-title">
+              Services & Products
+              
+            </h6>
+            <ul class="reset-list">
+              <li><a href="#">Mounting accesories</a></li>
+              <li><a href="#">Wi-fi & Lan Projects</a></li>
+              <li><a href="#">Realizations</a></li>
             </ul>
           </div>
         </div>
