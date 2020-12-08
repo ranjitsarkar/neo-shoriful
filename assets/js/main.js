@@ -188,7 +188,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
             breakpoint: 992,
             settings: {
               dots: false,
-              arrows: true
+              arrows: true,
+              slidesToShow: 1,
+              slidesToScroll: 1
             }
           }
           /*{
@@ -466,8 +468,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
               speed: 300,
               slidesToShow: 1,
               slidesToScroll: 1,
-              prevArrow: $('.fl-prv-nxt .fl-prev'),
-              nextArrow: $('.fl-prv-nxt .fl-next')
+              prevArrow: $('.rlztn-slider-ctlr .fl-prv-nxt .fl-prev'),
+              nextArrow: $('.rlztn-slider-ctlr .fl-prv-nxt .fl-next')
             });
           };
         }

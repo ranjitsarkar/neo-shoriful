@@ -1138,28 +1138,53 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	.page-banner-title {
 	    font-size: 36px;
 	}
-	.bredcrumbs ul li a{
+	.bredcrumbs ul li{
 		display: none;
 	}
-	.bredcrumbs ul li:first-child a{
+	.bredcrumbs ul li:first-child{
 		display: inline-block;
 		vertical-align: baseline;
-		padding-right: 60px;
+		padding-right: 20px;
 		position: relative;
 	}
-	.bredcrumbs ul li:first-child a:after{
-		content: "";
+	.bredcrumbs ul li:first-child:before{
+		content: ""!important;
 		position: absolute;
 		top: 50%;
-		right: 0;
-		background: #fff;
-		width: 5px;
-		height: 5px;
-		border-radius: 100%;
+		right: 0%!important;
+		left: initial;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		height: 6px;
+		width: 9px;
+		background: url(../images/breadcrumbs-rgt-arrow.svg);
+	    background-repeat: no-repeat;
+	    background-size: cover;
 	}
-	.bredcrumbs ul li:last-child a{
+	
+	.bredcrumbs ul li:last-child{
 		display: inline-block;
 		vertical-align: baseline;
+		padding-left: 45px;
+		padding-right: 0;
+		position: relative;
+	}
+	.bredcrumbs ul li:last-child:before{
+		content: ""!important;
+		position: absolute;
+		top: 50%;
+		left: 5px!important;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		height: 5px;
+		width: 5px;
+		border-radius: 100%;
+		background: #fff;
+	}
+	.bredcrumbs ul li:last-child:after{
+		left: 35px;
 	}
 	
 	
