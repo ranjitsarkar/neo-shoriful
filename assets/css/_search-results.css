@@ -256,6 +256,7 @@
 	.nw-search-lft-sidebar {
 	    width: 100%;
 	    padding-right: 0;
+	    padding-bottom: 30px;
 	}
 	.nw-search-des{
 		width: 100%;
@@ -335,6 +336,12 @@
 	    font-size: 26px;
 	    margin-bottom: 20px;
 	}
+	.nw-search-lft-bg{
+		display: none;
+	}
+	.nw-search-lft-sidebar{
+		padding-left: 20px;
+	}
 	
 }
 
@@ -354,7 +361,7 @@
 
 @media(max-width: 479px){
 	.nw-search-sec .nw-pro-overview-search input {
-	    width: 300px;
+	    width: 280px;
 	}
 	.nw-search-des-hdr-title {
 	    font-size: 27px;
@@ -380,6 +387,6 @@
 
 @media(max-width: 359px){
 	.nw-search-sec .nw-pro-overview-search input {
-	    width: 265px;
+	    width: 245px;
 	}
 }

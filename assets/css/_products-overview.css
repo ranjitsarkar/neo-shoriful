@@ -420,6 +420,9 @@
 	font-weight: 300;
 	color: #7B8CA8;
 }
+.nw-pols-checkmark-title{
+	display: none;
+}
 
 
 @media(max-width: 1499px){
@@ -529,6 +532,9 @@
 	.xs-pro-filter ul{
 		display: none;
 		padding-top: 20px;
+	}
+	.nw-pols-checkmark-title{
+		display: block;
 	}
 	.xs-pro-filter h3{
 		font-size: 24px;
