@@ -596,7 +596,9 @@
 	.nw-pro-details-sec .quantity{
 		padding-right: 80px;
 	}
-	.nw-pro-details-sec .woocommerce form.woocommerce-cart-form table.woocommerce-cart-form__contents tbody tr.woocommerce-cart-form__cart-item td.product-quantity .quantity, .minus, .plus{
+	.nw-pro-details-sec .woocommerce form.woocommerce-cart-form table.woocommerce-cart-form__contents tbody tr.woocommerce-cart-form__cart-item td.product-quantity .quantity,
+	.nw-pro-details-sec .minus, 
+	.nw-pro-details-sec .plus{
 		position: absolute;
 	}
 	.nw-pro-details-sec .nw-pd-pro-quantity .plus{
@@ -639,7 +641,7 @@
 	.nw-pro-details-sec .nw-pd-pro-quantity .plus{
 		width: 30px;
 	    height: 50px;
-	    font-size: 38px;
+	    font-size: 35px;
 	    line-height: 1;
 	    right: 43px;
 	    top: 45px;
@@ -647,7 +649,7 @@
 	.nw-pro-details-sec .nw-pd-pro-quantity .minus{
 		width: 30px;
 	    height: 50px;
-	    font-size: 37px;
+	    font-size: 35px;
 	    right: 0;
 	    top: 45px;
     	bottom: initial;
