@@ -470,8 +470,11 @@
 	.nw-pro-overview-sec {
 	    padding-bottom: 75px;
 	}
+	.nw-pro-overview-search {
+	    float: initial;
+	}
 	.nw-pro-overview-search input{
-		width: 400px;
+		width: 100%;
 	}
 	.nw-pro-overview-lftsidebar {
 	    width: 32%;
@@ -578,9 +581,6 @@
 	.nw-pols-link ul li.menu-item-has-children ul.sub-menu{
 		display: none!important;
 	}
-	.nw-pro-overview-search input {
-	    width: 535px;
-	}
 	.nw-pro-overview-filter {
 	    float: initial;
 	    padding-top: 30px;
@@ -606,17 +606,11 @@
 	.show-xs{
 		display: block!important;
 	}
-	.nw-pro-overview-search input {
-	    width: 440px;
-	}
 	
 
 }
 
 @media(max-width: 479px){
-	.nw-pro-overview-search input {
-	    width: 320px;
-	}
 	.nw-pro-overview-filter form span{
 		display: block;
 		margin-right: 0;
@@ -629,9 +623,7 @@
 }
 
 @media(max-width: 359px){
-	.nw-pro-overview-search input {
-	    width: 280px;
-	}
+	
 }
 
 
