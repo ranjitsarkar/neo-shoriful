@@ -621,6 +621,12 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 
 
 
+.xs-cls{
+	display: none!important;
+}
+
+
+
 @media(max-width: 1499px){
 	
 }
@@ -1029,6 +1035,33 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	.hdr-rgt-top-menu-inr, 
 	.hdr-rgt-top-menu-lang{
 		display: block;
+	}
+	.humberger{
+		display: flex;
+		align-items: center;
+	}
+	.humberger-icon{
+		display: inline-block;
+		vertical-align: baseline;
+	}
+	.humberger strong{
+		display: inline-block;
+		vertical-align: baseline;
+		font-size: 16px;
+		line-height: 1;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 700;
+		margin-left: 15px;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	.active-scroll-off .xs-show{
+		display: none!important;
+	}
+	.active-scroll-off .xs-cls{
+		display: block!important;
 	}
 	
 	
