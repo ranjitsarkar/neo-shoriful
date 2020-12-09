@@ -1039,10 +1039,16 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	.humberger{
 		display: flex;
 		align-items: center;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-ms-transition: all 0.5s;
 	}
 	.humberger-icon{
 		display: inline-block;
 		vertical-align: baseline;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-ms-transition: all 0.5s;
 	}
 	.humberger strong{
 		display: inline-block;

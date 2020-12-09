@@ -126,6 +126,7 @@
 }
 .nw-search-sec .nw-nwo-grd-item-des span{
 	margin-bottom: 5px;
+	color: #7B8CA8;
 }
 .nw-search-sec .nw-nwogid-title{
 	font-size: 22px;
@@ -286,7 +287,7 @@
 		font-size: 28px;
 		margin-bottom: 25px;
 	}
-	.nw-pro-overview-search {
+	.nw-search-sec .nw-pro-overview-search {
 	    float: initial;
 	}
 	.nw-search-sec .nw-pro-overview-search input {
@@ -338,6 +339,11 @@
 	}
 	.nw-search-sec .nw-nwogid-title {
 	    font-size: 20px;
+	    margin-bottom: 0;
+	    padding-bottom: 15px;
+	}
+	.nw-search-sec .date{
+	    top: -8px;
 	}
 	.nw-search-article-title {
 	    font-size: 26px;
@@ -376,9 +382,6 @@
 }
 
 @media(max-width: 479px){
-	.nw-search-sec .nw-pro-overview-search input {
-	    width: 280px;
-	}
 	.nw-search-des-hdr-title {
 	    font-size: 27px;
 	}
@@ -402,7 +405,5 @@
 }
 
 @media(max-width: 359px){
-	.nw-search-sec .nw-pro-overview-search input {
-	    width: 245px;
-	}
+
 }

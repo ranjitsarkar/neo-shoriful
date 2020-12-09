@@ -466,8 +466,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
           $('.xs-pro-filter h3').on('click', function(){
             $(this).toggleClass('active');
             $(this).parent().siblings().find('h3').removeClass('active');
-            $(this).parent().find('ul').slideToggle(300);
             $(this).parent().siblings().find('ul').slideUp(300);
+            $(this).parent().find('ul').slideToggle(300);
+            
           });
 
         }
