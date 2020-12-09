@@ -255,7 +255,7 @@
 	}
 	.nw-search-lft-sidebar {
 	    width: 100%;
-	    padding-right: 0;
+	    padding-right: 20px;
 	    padding-bottom: 30px;
 	}
 	.nw-search-des{
@@ -286,6 +286,16 @@
 		font-size: 28px;
 		margin-bottom: 25px;
 	}
+	.nw-pro-overview-search {
+	    float: initial;
+	}
+	.nw-search-sec .nw-pro-overview-search input {
+	    width: 100%;
+	}
+	.nw-search-radio {
+	    padding-top: 60px;
+	}
+	
 	
 	
 }
@@ -307,9 +317,6 @@
 	.nw-search-des-hdr-title {
 	    font-size: 29px;
 	    margin-bottom: 30px;
-	}
-	.nw-search-sec .pagination-cntlr ul li:first-child {
-	    left: 50px;
 	}
 	.nw-search-sec .pagination-cntlr ul li:last-child{
 		right: 20px;
@@ -341,6 +348,15 @@
 	}
 	.nw-search-lft-sidebar{
 		padding-left: 20px;
+	}
+	.nw-search-sec .pagination-cntlr ul li:first-child {
+	    left: 20px;
+	}
+	.nw-search-des-hdr,
+	.nw-search-sec .pagination-cntlr,
+	.nw-search-product,
+	.nw-search-article{
+	    padding-left: 0;
 	}
 	
 }

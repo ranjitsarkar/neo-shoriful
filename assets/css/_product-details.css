@@ -572,6 +572,11 @@
 	.nw-pd-fancy-glry{
 		padding-bottom: 25px;
 	}
+	.nw-cart-modal-popup-hdr,
+	.nw-cart-modal-popup-btm{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
 	
 }
 
@@ -581,6 +586,9 @@
 	}
 	.show-xs{
 		display: block!important;
+	}
+	.nw-cmpb-lft-btn{
+		margin-bottom: 20px;
 	}
 	
 
