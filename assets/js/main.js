@@ -434,11 +434,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
             $('body').toggleClass('active-scroll-off');
             $(this).toggleClass('active-collapse');
           });
-          /*$('.close-btn-icon').on('click', function(e){
-            $('.bdoverlay').removeClass('active');
-            $('.xs-menu-ctlr').removeClass('opacity-1');
-            $('body').removeClass('active-scroll-off');
-          });*/
           $('li.menu-item-has-children > a').on('click', function(e){
               e.preventDefault();
             //$('li.menu-item-has-children .sub-menu').slideUp(300);
@@ -446,13 +441,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
             $(this).toggleClass('sub-menu-active');
             
           });
-          /*$('li.menu-item-has-children > a ul.sub-menu li.menu-item-has-children a').on('click', function(e){
-              e.preventDefault();
-            //$('li.menu-item-has-children .sub-menu').slideUp(300);
-            $(this).next().slideToggle(300);
-            $(this).toggleClass('sub-menu-active');
-            
-          });*/
 
         }
 
