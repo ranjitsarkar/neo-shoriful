@@ -470,12 +470,7 @@
 	.nw-pro-overview-sec {
 	    padding-bottom: 75px;
 	}
-	.nw-pro-overview-search {
-	    float: initial;
-	}
-	.nw-pro-overview-search input{
-		width: 100%;
-	}
+	
 	.nw-pro-overview-lftsidebar {
 	    width: 32%;
 	}
@@ -495,6 +490,9 @@
 	.nw-pols-radio-title, 
 	.nw-search-check-title{
 		font-size: 27px;
+	}
+	.nw-pro-overview-search input{
+		width: 410px;
 	}
 	
 	
@@ -595,6 +593,12 @@
 	}
 	.nw-pro-overview-grds-item ul li{
 		padding-bottom: 30px;
+	}
+	.nw-pro-overview-search {
+	    float: initial;
+	}
+	.nw-pro-overview-search input{
+		width: 100%;
 	}
 	
 }
