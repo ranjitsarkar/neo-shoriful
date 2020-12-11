@@ -12,3 +12,8 @@ Text Domain: clipfresh
 */
 
 @import url('assets/css/main.css');
+
+
+#catapult-cookie-bar{
+	display: none;
+}
