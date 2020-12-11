@@ -571,6 +571,13 @@ Gallery design
 	.dfp-realization-module .fl-prev{
 		top: 25%!important;
 	}
+	.dft-blockquote blockquote {
+	    font-size: 27px;
+	    padding: 110px 10px 35px 20px;
+	}
+	.dft-blockquote i {
+	    left: 20px;
+	}
 }
 
 

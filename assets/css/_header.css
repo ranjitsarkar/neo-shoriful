@@ -1269,5 +1269,8 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	    width: 132px;
 	    font-size: 12px;
 	}
+	.xs-shipping-cart a i{
+		left: 20px;
+	}
 }
 
