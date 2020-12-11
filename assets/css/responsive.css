@@ -115,7 +115,9 @@
 }
 
 @media(max-width: 479px){
-
+	h3{
+		font-size: 24px;
+	}
 
 }
 

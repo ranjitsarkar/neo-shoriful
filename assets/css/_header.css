@@ -698,6 +698,95 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	.show-md{
 		display: block!important;
 	}
+	
+	.page-banner-cnt-des-inr{
+		padding-top: 170px;
+	}
+	/*.hm-pbcd{
+		display: block;
+		padding-left: 25px;
+		padding-right: 25px;
+	}*/
+	/*.hm-page-banner-left {
+	    width: 100%;
+	    padding-right: 0;
+	    margin-bottom: 40px;
+	}*/
+	.hm-page-banner-left-inr span{
+		font-size: 23px;
+	}
+	.hm-pbl-title {
+	    font-size: 52px;
+	}
+	.page-banner-title{
+		font-size: 52px;
+	}
+	.logo a{
+		max-width: 250px;
+	}
+	.hdr-rgt-top-menu-inr ul li {
+	    padding-left: 7px;
+	    padding-right: 7px;
+	}
+	.hdr-rgt-top-menu-inr ul li:last-child {
+	    padding-right: 15px;
+	}
+	.hdr-rgt-top-menu-lang-inr ul {
+	    padding-left: 56px;
+	}
+	nav.main-nav ul li:last-child {
+	    padding-right: 20px;
+	}
+	.hm-pbr-grd-item-des{
+		left: 20px;
+	}
+	.hm-pbr-grd-item-des a {
+	    font-size: 26px;
+	}
+	.hm-pbl-title {
+	    font-size: 45px;
+	}
+	.hm-pb-btn-lft a, 
+	.hm-pb-btn-rgt a, 
+	.hm-pb-btn-rgt a:hover{
+		width: 165px;
+		margin-right: 10px;
+	}
+	.hm-pb-btn-rgt a{
+		margin-right: 0;
+	}
+	
+	
+	
+}
+
+@media(max-width: 767px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+	.hm-pbl-title {
+	    font-size: 46px;
+	}
+	.hm-pbcd {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.hm-pbr-grd-item-img{
+		min-height: 200px;
+	}
+	.page-banner-title{
+		font-size: 48px;
+	}
+	.page-banner-cnt-des {
+	    min-height: 300px;
+	}
+	.hm-page-banner-left{
+		margin-bottom: 160px;
+	}
+
 	.hdr-lft{
 		display: initial;
 		text-align: center;
@@ -706,29 +795,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	.hdr-rgt{
 		display: none;
 	}
-	.page-banner-cnt-des-inr{
-		padding-top: 170px;
-	}
-	.hm-pbcd{
-		display: block;
-		padding-left: 25px;
-		padding-right: 25px;
-	}
-	.hm-page-banner-left {
-	    width: 100%;
-	    padding-right: 0;
-	    margin-bottom: 40px;
-	}
-	.hm-page-banner-rgt {
-	    width: 100%;
-	}
-	.hm-page-banner-left-inr span{
-		font-size: 23px;
-	}
-	.hm-pbl-title {
-	    font-size: 52px;
-	}
-
 	.mobile-menu{
 		background: #43587B;
 		position: relative;
@@ -1026,16 +1092,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	.xs-menu-ctlr .hdr-rgt-top-menu-inr > ul > li.menu-item-has-children ul.sub-menu > li:after{
 		content: none;
 	}
-	.hm-page-banner {
-	    min-height: 600px;
-	}
-	.page-banner-title{
-		font-size: 52px;
-	}
-	.hdr-rgt-top-menu-inr, 
-	.hdr-rgt-top-menu-lang{
-		display: block;
-	}
 	.humberger{
 		display: flex;
 		align-items: center;
@@ -1069,35 +1125,35 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	.active-scroll-off .xs-cls{
 		display: block!important;
 	}
-	
-	
-}
-
-@media(max-width: 767px){
-	.hide-sm{
-		display: none!important;
+	.hdr-rgt-top-menu-inr, .hdr-rgt-top-menu-lang{
+		display: block;
 	}
-	.show-sm{
-		display: block!important;
-	}
-	.hm-pbl-title {
-	    font-size: 46px;
-	}
-	.hm-pbcd {
-	    padding-left: 0;
-	    padding-right: 0;
-	}
-	.hm-pbr-grd-item-img{
-		min-height: 200px;
-	}
-	.page-banner-title{
-		font-size: 48px;
-	}
-	.page-banner-cnt-des {
-	    min-height: 300px;
+	.hm-pbcd{
+		display: block;
 	}
 	.hm-page-banner-left{
-		margin-bottom: 160px;
+		width: 100%;
+		padding-right: 0;
+		text-align: center;
+	}
+	.hm-page-banner-rgt{
+		width: 100%;
+		padding: 0;
+	}
+	.hm-page-banner-rgt-grds{
+		max-width: 330px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.hm-pbr-grd-item-des{
+		right: 0;
+		padding-right: 20px;
+	}
+	.hm-pbr-grd-item-des a{
+		display: block;
+		font-size: 32px;
+		line-height: 1;
 	}
 	
 	
@@ -1192,12 +1248,29 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	.bredcrumbs ul li:last-child:after{
 		left: 35px;
 	}
+	.hm-pbl-title {
+	    font-size: 41px;
+	}
+	.hm-pb-btn-lft a, 
+	.hm-pb-btn-rgt a{
+		width: 150px;
+	}
 	
 	
 
 }
 
 @media(max-width: 359px){
-
+	.hm-pbl-title {
+	    font-size: 37px;
+	}
+	.hm-pb-btn-lft a, 
+	.hm-pb-btn-rgt a {
+	    width: 132px;
+	    font-size: 12px;
+	}
+	.xs-shipping-cart a i{
+		left: 20px;
+	}
 }
 
