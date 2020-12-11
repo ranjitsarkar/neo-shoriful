@@ -416,7 +416,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
         });
 
 
-        if (windowWidth <= 991) {
+        if (windowWidth <= 767) {
           $('.ftr-top-menu-col h6').on('click', function(){
             $(this).toggleClass('active');
             $(this).parent().siblings().find('h6').removeClass('active');

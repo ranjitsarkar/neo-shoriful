@@ -551,12 +551,15 @@
 	.nw-usp-sec-inr ul li:nth-child(3n+1){
 		clear: none;
 	}
-	.nw-usp-sec-inr ul li:nth-child(2n+1){
-		clear: left;
+	.nw-usp-sec-inr ul {
+	    margin-left: 0;
+	    margin-right: 0;
 	}
-	.nw-usp-sec-inr ul li{
-		width: 50%;
-		padding-bottom: 25px;
+	.nw-usp-sec-inr ul li {
+	    width: 100%;
+	    padding-right: 0;
+    	padding-left: 0;
+    	padding-bottom: 25px;
 	}
 	.hm-pro-slider-item-ctlr {
 	    display: block;
@@ -658,7 +661,7 @@
 		left: -18px!important;
 	}
 	.fl-prev{
-		top: 24%!important;
+		top: 17%!important;
 		left: 2px!important;
 		width: 34px;
 		height: 34px;
@@ -667,7 +670,7 @@
 		right: -18px!important;
 	}
 	.fl-next{
-		top: 24%;
+		top: 17%;
 		right: 2px!important;
 		height: 34px;
 		width: 34px;
@@ -747,13 +750,13 @@
 	}
 	.realization-sec {
 	    padding-bottom: 70px;
-	    margin-top: -100px;
+	    margin-top: -140px;
 	    position: relative;
 	    z-index: 1;
 	}
 	.realization-sec .fl-next,
 	.realization-sec .fl-prev{
-		top: 35%!important;
+		top: 28%!important;
 	}
 	.hm-pro-slider{
 		padding-bottom: 20px;
@@ -768,8 +771,8 @@
 		position: relative;
 	}
 	.xs-skew{
-		background: #E5E5E5;
-		height: 900px;
+		background: #f3f7fa;
+		height: 950px;
 		position: absolute;
 		bottom: 0;
 		left: 0;
@@ -804,6 +807,12 @@
 	.about-sec{
 		position: relative;
 		z-index: 1;
+	}
+	.realization-grd-item{
+		max-width: 330px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 }
