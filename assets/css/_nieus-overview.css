@@ -164,8 +164,7 @@
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 }
-.pagination-cntlr ul li span.current:after,
-.pagination-cntlr ul li a:hover:after{
+.pagination-cntlr ul li span.current:after{
 	visibility: visible;
 	opacity: 1;
 }
@@ -241,7 +240,10 @@
 	    padding: 50px 0 40px;
 	}
 	.nw-nwo-grd-item {
-	    display: initial;
+	    display: block;
+	    max-width: 400px;
+	    width: 100%;
+	    margin: 0 auto;
 	}
 	.nw-nwo-grd-item-img-ctlr{
 		width: 100%;

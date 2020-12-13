@@ -848,7 +848,8 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	}
 	.xs-menu-ctlr{
 		display: block!important;
-		max-width: 100%!important;
+		max-width: 375px!important;
+		width: 100%;
 		padding: 40px 50px 70px 50px;
 		position: fixed;
 		top: 0;

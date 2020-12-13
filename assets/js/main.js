@@ -261,7 +261,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
                 }
               },
               "color": {
-                "value": "#ffffff"
+                "value": "#344e65"
               },
               "shape": {
                 "type": "circle",
@@ -301,7 +301,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
               "line_linked": {
                 "enable": true,
                 "distance": 80,
-                "color": "#fff",
+                "color": "#344e65",
                 "opacity": 0.4,
                 "width": 1
               },
