@@ -498,6 +498,10 @@ Gallery design
 	.dfp-realization-module .realizatin-grd-item-des p{
 		margin-bottom: 15px;
 	}
+	.dfp-usp-module{
+		margin-left: -20px;
+		margin-right: -20px;
+	}
 }
 
 
@@ -551,10 +555,7 @@ Gallery design
 	.fl-dft-lftimg-rgtdes-rgt {
 	    padding-top: 25px;
 	}
-	.dfp-usp-module{
-		margin-left: -20px;
-		margin-right: -20px;
-	}
+	
 	.dfp-usp-module .nw-usp-sec-inr ul li{
 		padding-left: 20px;
 	}

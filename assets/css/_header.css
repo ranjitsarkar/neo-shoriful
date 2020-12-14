@@ -1240,17 +1240,18 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		position: relative;
 	}
 	.bredcrumbs ul li:last-child:before{
-		content: ""!important;
+		content: "..."!important;
 		position: absolute;
 		top: 50%;
 		left: 5px!important;
 		transform: translateY(-50%);
 		-webkit-transform: translateY(-50%);
 		-ms-transform: translateY(-50%);
-		height: 5px;
+		background-image: none;
+		/*height: 5px;
 		width: 5px;
 		border-radius: 100%;
-		background: #fff;
+		background: #fff;*/
 	}
 	.bredcrumbs ul li:last-child:after{
 		left: 35px;

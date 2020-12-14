@@ -750,8 +750,9 @@
 	.realization-sec .slick-dotted.slick-slider{
 		margin-bottom: 20px;
 	}
-	.realization-btn-ctlr:after{
-		content: none;
+	.realization-btn{
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 	.realization-sec {
 	    padding-bottom: 70px;
@@ -846,6 +847,9 @@
 	}
 	.xs-skew{
 		height: 985px;
+	}
+	.realization-btn-ctlr:after{
+		content: none;
 	}
 
 }
