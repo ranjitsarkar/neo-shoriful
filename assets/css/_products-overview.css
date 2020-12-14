@@ -533,21 +533,7 @@
 	.nw-pro-overview-grds-item {
 	    width: 100%;
 	}
-	.nw-pro-overview-grds-item ul{
-		margin-left: 0;
-		margin-right: 0;
-	}
-	.nw-pro-overview-grds-item ul li {
-	    width: 100%;
-	    padding-left: 0;
-	    padding-right: 0;
-	}
-	.nw-pro-overview-grd-item{
-		max-width: 350px;
-		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-	}
+	
 	.xs-pro-filter ul{
 		display: none;
 		padding-top: 20px;
@@ -627,6 +613,21 @@
 	}
 	.show-xs{
 		display: block!important;
+	}
+	.nw-pro-overview-grds-item ul{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.nw-pro-overview-grds-item ul li {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.nw-pro-overview-grd-item{
+		max-width: 350px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 
