@@ -325,6 +325,7 @@
 	.nw-search-pro-title {
 	    font-size: 26px;
 	    margin-bottom: 20px;
+	    text-align: center;
 	}
 	.nw-search-sec .nw-nwo-grd-item-img-ctlr {
 	    width: 100%;
@@ -348,6 +349,7 @@
 	.nw-search-article-title {
 	    font-size: 26px;
 	    margin-bottom: 20px;
+	    text-align: center;
 	}
 	.nw-search-lft-bg{
 		display: none;
@@ -377,7 +379,9 @@
 	.nw-search-des{
 		padding-bottom: 50px;
 	}
-	
+	.nw-search-des-hdr-title {
+	    font-size: 27px;
+	}
 
 }
 
