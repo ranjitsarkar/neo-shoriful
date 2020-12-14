@@ -1248,6 +1248,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		-webkit-transform: translateY(-50%);
 		-ms-transform: translateY(-50%);
 		background-image: none;
+		color: #fff;
 		/*height: 5px;
 		width: 5px;
 		border-radius: 100%;
