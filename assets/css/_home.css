@@ -629,6 +629,11 @@
 	.xs-hm-page-bnr-inr{
 		margin-top: -120px;
 	}
+	.hm-pro-slider{
+		max-width: 400px;
+		width: 100%;
+		margin: 0 auto;
+	}
 	
 
 	
@@ -661,7 +666,7 @@
 		left: -18px!important;
 	}
 	.fl-prev{
-		top: 17%!important;
+		top: 22%!important;
 		left: 2px!important;
 		width: 34px;
 		height: 34px;
@@ -670,7 +675,7 @@
 		right: -18px!important;
 	}
 	.fl-next{
-		top: 17%;
+		top: 22%;
 		right: 2px!important;
 		height: 34px;
 		width: 34px;
@@ -848,5 +853,13 @@
 @media(max-width: 359px){
 	.realization-btn a{
 		width: 280px;
+	}
+	.about-rgt-des > strong, 
+	.about-lft-des > strong{
+		font-size: 21px;
+	}
+	.fl-next,
+	.fl-prev{
+		top: 18%!important;
 	}
 }
