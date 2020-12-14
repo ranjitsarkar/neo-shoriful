@@ -213,17 +213,27 @@ google.maps.event.addDomListener(window, 'load', initialize);
         ]
       });
     }
+    $('.hdr-rgt-btm-menu-search input').hide();
+    $('.hdr-rgt-btm-menu-search button').click(function(){
+      $('.hdr-rgt-btm-menu-search input').toggle();
+    });
+    $(document).on('click', function(even){
+      var $trigger = $('.hdr-rgt-btm-menu-search');
+      if($trigger !== event.target && !$trigger.has(event.target).length){
+        $('.hdr-rgt-btm-menu-search input').slideUp(500);
+      }
+    });
 
         if( $('#sidebar').length ){
-        $('#sidebar').stickySidebar({
-            topSpacing: 100,
-            bottomSpacing: 60
-        });
-      }
+          $('#sidebar').stickySidebar({
+              topSpacing: 100,
+              bottomSpacing: 60
+          });
+        }
 
-      $('.hdr-rgt-btm-menu-search button').on('click', function(){
+      /*$('.hdr-rgt-btm-menu-search button').on('click', function(){
         $('.hdr-rgt-btm-menu-search').toggleClass('src-hide-show');
-      });
+      });*/
 
       if ($('#catapultCookie').length) {
         $('#catapultCookie').on('click', function(e){

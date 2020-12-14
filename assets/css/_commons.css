@@ -284,7 +284,7 @@ form .bootstrap-select .dropdown-toggle:focus{
 }
 form .dropdown-menu{
     margin: 0;
-    background-color: #cabb9f;
+    background-color: #8798B6;
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -305,7 +305,7 @@ form .dropdown-menu li a{
 .dropdown-menu>.active>a, 
 .dropdown-menu>.active>a:focus, 
 .dropdown-menu>.active>a:hover{
-	background-color: #FF5C26;
+	background-color: #02BEE8;
 }
 
 .bootstrap-select .dropdown-toggle:focus{
