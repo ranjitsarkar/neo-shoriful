@@ -250,13 +250,14 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	margin-top: 10px;
-	/*width: 0;
-	opacity: 0;*/
+	width: 0;
+	opacity: 0;
 }
-/*.src-hide-show.hdr-rgt-btm-menu-search input[type=text]{
-	width: 450px;
+.src-hide-show .hdr-rgt-btm-menu-search input[type=text]{
+	width: 450px!important;
 	opacity: 1;
-}*/
+	display: block;
+}
 .hdr-rgt-btm-menu-search input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #43587B;
   opacity: 1;

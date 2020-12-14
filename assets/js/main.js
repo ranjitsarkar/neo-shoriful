@@ -213,20 +213,29 @@ google.maps.event.addDomListener(window, 'load', initialize);
         ]
       });
     }
-    $('.hdr-rgt-btm-menu-search input').hide();
-    $('.hdr-rgt-btm-menu-search button').click(function(){
-      $('.hdr-rgt-btm-menu-search input').toggle();
-    });
-    $(document).on('click', function(even){
-      var $trigger = $('.hdr-rgt-btm-menu-search');
-      if($trigger !== event.target && !$trigger.has(event.target).length){
-        $('.hdr-rgt-btm-menu-search input').slideUp(500);
-      }
-    });
+    if($('.hdr-rgt-btm-menu-search button').length){
+      $('.hdr-rgt-btm-menu-search button').click(function(){
+        $('body').toggleClass('src-hide-show');
+      });
+      $(document).on('click', function(even){
+        var $trigger = $('.hdr-rgt-btm-menu-search');
+        if($trigger !== event.target && !$trigger.has(event.target).length){
+          $('.hdr-rgt-btm-menu-search input').slideUp(500);
+        }
+      });
+    }
+
+    /*if($('.hdr-rgt-btm-menu-search').length){
+      $('.hdr-rgt-btm-menu-search').click(function(){
+        $('.hdr-rgt-btm-menu-search input').not($(this).next()).slideUp('fast');
+        $(this).next('.hdr-rgt-btm-menu-search input').slideToggle('fast');
+      });
+    }*/
+    
 
         if( $('#sidebar').length ){
           $('#sidebar').stickySidebar({
-              topSpacing: 100,
+              topSpacing: 0,
               bottomSpacing: 60
           });
         }

@@ -502,6 +502,9 @@ Gallery design
 		margin-left: -20px;
 		margin-right: -20px;
 	}
+	.xs-dfp-plate-one-img-bx{
+		min-height: 300px;
+	}
 }
 
 
