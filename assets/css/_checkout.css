@@ -169,9 +169,9 @@
 	color: #FF5C26;
 }
 
-.nw-checkout-rgt-top-hdr ul,
-.nw-checkout-rgt-btm-hdr ul{
-	padding-bottom: 20px;
+.nw-checkout-rgt-top-hdr i,
+.nw-checkout-rgt-btm-hdr i{
+	padding-bottom: 10px;
 }
 .nw-checkout-rgt-top-hdr ul li,
 .nw-checkout-rgt-btm-hdr ul li{
