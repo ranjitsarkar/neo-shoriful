@@ -94,7 +94,7 @@
 
 .nw-inputfield input[type=text]:focus,
 .nw-inputfield input[type=email]:focus{
-	border-color: #FF5C26;
+	border-color: #7B8CA8;
 }
 
 
@@ -221,6 +221,12 @@
 	margin-bottom: 7px;
 	font-weight: 600;
 	color: #43587B;
+}
+.nw-pro-name-title a{
+	color: #43587B;
+}
+.nw-pro-name-title a:hover{
+	color: #FF5C26;
 }
 .product-name ul li{
 	display: inline-block;
@@ -397,10 +403,19 @@
 		border-top: none;
 	}
 	.woocommerce form.woocommerce-cart-form table.woocommerce-cart-form__contents tbody tr.woocommerce-cart-form__cart-item{
-		border-top: 2px solid #E1E7F0;
+		border-bottom: 2px solid #E1E7F0;
+		border-top: none;
+		max-width: 450px;
+		width: 100%;
+	}
+	.woocommerce form.woocommerce-cart-form table.woocommerce-cart-form__contents tbody tr.woocommerce-cart-form__cart-item:last-child{
+		border-bottom: none;
 	}
 	.nw-checkout-lft-title{
 		font-size: 28px;
+		margin-bottom: 0;
+		padding-bottom: 15px;
+		border-bottom: 2px solid #E1E7F0;
 	}
 	.nw-checkout-rgt-top-title, 
 	.nw-checkout-rgt-btm-title{

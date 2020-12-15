@@ -29,16 +29,7 @@
 .nw-contact-form-lft-hdr p{
 	margin-bottom: 10px;
 }
-.nw-contact-form-lft-hdr ul li{
-	display: inline-block;
-	vertical-align: baseline;
-	width: 9px;
-	height: 9px;
-	background: #DFE7ED;
-	padding-left: 2px;
-	padding-right: 2px;
-	border-radius: 100%;
-}
+
 .nw-contact-form-lft-hdr{
 	padding-bottom: 30px;
 }
@@ -118,7 +109,7 @@
 
 .nw-contact-form-sec .wpforms-form .wpforms-field-container .wpforms-field textarea:focus,
 .nw-contact-form-sec .wpforms-form .wpforms-field-container .wpforms-field input:focus{
-	border-color: #FF5C26;
+	border-color: #7B8CA8;
 }
 
 .nw-contact-form-sec .wpforms-form .wpforms-submit-container button,
@@ -231,7 +222,7 @@
 .nw-contact-mail span{
 	display: inline-block;
 	vertical-align: baseline;
-	font-size: 30px;
+	font-size: 28px;
 	line-height: 1.1;
 	color: #43587B;
 	margin-bottom: 60px;
@@ -276,8 +267,8 @@
 	display: inline-block;
 	vertical-align: baseline;
 }
-.nw-contact-socials-media ul li a:hover{
-	opacity: 0.7;
+.nw-contact-socials-media ul li a:hover svg{
+	fill: #FF5C26;
 }
 
 
@@ -322,7 +313,15 @@
 	.show-lg{
 		display: block!important;
 	}
-	
+	.nw-contact-form-lft{
+		padding: 60px 25px;
+	}
+	.nw-contact-form-rgt{
+		padding-left: 50px;
+	}
+	.nw-contact-location a br, .nw-contact-tel span br, .nw-contact-mail span br{
+		display: none;
+	}
 
 }
 
@@ -424,6 +423,11 @@
 	}
 	.google-map-top-skew{
 		border-top: 70px solid #F4F7F9;
+	}
+	.nw-contact-location i, 
+	.nw-contact-tel i, 
+	.nw-contact-mail i{
+		max-width: 30px;
 	}
 	
 
