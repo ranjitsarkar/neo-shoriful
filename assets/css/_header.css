@@ -979,6 +979,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	}
 	.xs-menu-ctlr .hdr-rgt-top-menu-inr ul li.menu-item-has-children a.sub-menu-active:after{
 		content: "\f106"!important;
+		color: #FF5C26;
 	}
 	.xs-menu-ctlr .hdr-rgt-top-menu-inr ul > li.menu-item-has-children > ul li a:after{
 		content: none!important;

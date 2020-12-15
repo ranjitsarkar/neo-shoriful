@@ -416,15 +416,18 @@
 		padding-bottom: 30px;
 	}
 	.nw-search-sec .nw-pols-radio.xs-pro-filter{
-		border-bottom: 2px solid #F4F7F9;
+		border-bottom: 2px solid #fff;
 	}
 	.nw-nwo-grd-item-img{
 		position: relative;
 	}
 	.nw-search-sec .date{
 		top: 20px;
-		right: 20px;
+		right: 0px;
+		background: #fff;
+		padding: 10px 10px;
 	}
+
 	
 }
 

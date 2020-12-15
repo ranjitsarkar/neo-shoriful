@@ -64,6 +64,12 @@
 	padding: 0;
 	color: #8798B6;
 }
+.nw-pro-overview-search button:hover{
+	border-color: #FF5C26;
+}
+.nw-pro-overview-search button:hover i{
+	color: #FF5C26;
+}
 
 
 .nw-pro-overview-filter form span{
