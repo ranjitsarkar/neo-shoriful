@@ -756,7 +756,7 @@
 	}
 	.realization-sec {
 	    padding-bottom: 70px;
-	    margin-top: -140px;
+	    margin-top: -110px;
 	    position: relative;
 	    z-index: 1;
 	}
@@ -836,6 +836,9 @@
 	.realization-sec {
 	    padding-bottom: 40px;
 	}
+	.about-sec .dft-btn{
+		width: 225px;
+	}
 	
 
 }
@@ -850,6 +853,19 @@
 	}
 	.realization-btn-ctlr:after{
 		content: none;
+	}
+	.nw-usp-grd-item-des i {
+	    max-width: 45px;
+	    width: 100%;
+	}
+	.usp-grd-item-title {
+	    font-size: 17px;
+	}
+	.hm-psid-title{
+		font-size: 20px;
+	}
+	.realization-sec{
+		margin-top: -110px;
 	}
 
 }

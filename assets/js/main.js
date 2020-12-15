@@ -213,37 +213,34 @@ google.maps.event.addDomListener(window, 'load', initialize);
         ]
       });
     }
-   /* if($('.hdr-rgt-btm-menu-search button').length){
-      $('.hdr-rgt-btm-menu-search button').click(function(){
-        $('body').toggleClass('src-hide-show');
-      });
-      $(document).on('click', function(even){
-        var $trigger = $('.hdr-rgt-btm-menu-search');
-        if($trigger !== event.target && !$trigger.has(event.target).length){
-          $('.hdr-rgt-btm-menu-search input').slideUp(500);
-        }
-      });
-    }*/
-
-    /*if($('.hdr-rgt-btm-menu-search').length){
-      $('.hdr-rgt-btm-menu-search').click(function(){
-        $('.hdr-rgt-btm-menu-search input').not($(this).next()).slideUp('fast');
-        $(this).next('.hdr-rgt-btm-menu-search input').slideToggle('fast');
-      });
-    }*/
+   
     
-    if($('.hdr-rgt-btm-menu-search button').length){
+    /*if($('.hdr-rgt-btm-menu-search button').length){
       $('.hdr-rgt-btm-menu-search button').click(function(){
         $('.hdr-rgt-btm-menu-search').addClass('src-hide-show');
       });
-      $(document).click(function(event){
-        if(event.target.id === 'hdr-rgt-btm-menu-search input'){
 
-        }else{
+    }*/
+
+    if($('.hdr-rgt-btm-menu-search').length){
+      hide = true;
+      $('.hdr-rgt-btm-menu-search').on('click', function(){
+        var self = $(this);
+        if(self.hasClass('src-hide-show')){
           $('.hdr-rgt-btm-menu-search').removeClass('src-hide-show');
+          return false;
         }
+        $('.hdr-rgt-btm-menu-search').removeClass('src-hide-show');
+        self.toggleClass('src-hide-show');
+        hide = false;
+      });
+      $('body').on('click', function(){
+        if(hide)
+          $('.hdr-rgt-btm-menu-search').removeClass('src-hide-show');
+        hide = true;
       });
     }
+    
 
         if( $('#sidebar').length ){
           $('#sidebar').stickySidebar({

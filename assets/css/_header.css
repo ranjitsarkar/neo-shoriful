@@ -253,7 +253,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	width: 0;
 	opacity: 0;
 }
-.src-hide-show .hdr-rgt-btm-menu-search input[type=text]{
+.src-hide-show.hdr-rgt-btm-menu-search input[type=text]{
 	width: 450px!important;
 	opacity: 1;
 	display: block;
@@ -1201,9 +1201,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	    display: block!important;
 	    padding-right: 30px;
 	    line-height: 1;
-	}
-	.hm-pbr-grd-item-des a i{
-		right: 10px;
 	}
 	.page-banner-title {
 	    font-size: 36px;
