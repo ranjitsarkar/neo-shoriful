@@ -476,9 +476,11 @@ Gallery design
 	}
 	.dfp-realization-module .fl-prev{
 		left: -18px!important;
+		top: 25%;
 	}
 	.dfp-realization-module .fl-next{
 		right: -18px!important;
+		top: 25%;
 	}
 	.dfp-realization-module .realizatin-grd-item-des{
 		border-bottom: none;
@@ -502,6 +504,9 @@ Gallery design
 	}
 	.xs-dfp-plate-one-img-bx{
 		min-height: 300px;
+	}
+	.dfp-realization-module .realizatin-grd-item-des {
+	    padding: 15px 20px 0px 0px;
 	}
 }
 
