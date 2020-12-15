@@ -45,7 +45,7 @@
 	-ms-transition: all 0.5s;
 }
 .nw-pro-details-lft-link a:hover i{
-	padding-right: 5px;
+	margin-right: -5px;
 }
 
 
@@ -312,7 +312,8 @@
 	color: #fff;
 }
 .nw-pro-details-sec .dft-btn:hover{
-	border-color: #7B8CA8;
+	background: #fff;
+	color: #FF5C26;
 }
 
 
@@ -572,6 +573,10 @@
 		max-width: 350px;
 		width: 100%;
 		margin: 0 auto;
+	}
+	.nw-pd-fancy-video i svg{
+		width: 60px;
+		height: 60px;
 	}
 	
 }
